@@ -1,0 +1,26 @@
+{
+  "original": {
+    "series": "original",
+    "d2_estimate": 3.830097994998342,
+    "slope_std": 0.39281195352837556,
+    "n_scaling_points": 16,
+    "plateau_clear": true,
+    "scaling_radius_min": 1.116456040189866,
+    "scaling_radius_max": 2.084015908367261,
+    "scaling_status": "stable_plateau"
+  },
+  "shuffled": {
+    "series": "shuffled",
+    "d2_estimate": 4.01529176693481,
+    "slope_std": 0.3427516857312696,
+    "n_scaling_points": 15,
+    "plateau_clear": true,
+    "scaling_radius_min": 1.2133410228691985,
+    "scaling_radius_max": 2.172559386527154,
+    "scaling_status": "stable_plateau"
+  },
+  "sample_size": 2500,
+  "radii_count": 32,
+  "metric": "euclidean",
+  "theiler_window": 685
+}

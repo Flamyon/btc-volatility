@@ -1,0 +1,11 @@
+metric,value
+input_rows,245088
+output_rows_after_dropna,244752
+rows_dropped_total,336
+rows_dropped_start,288
+rows_dropped_end,48
+first_valid_index_zero_based,288
+last_valid_index_zero_based,245039
+final_start_open_time,2024-01-02 00:00:00
+final_end_open_time,2026-04-30 19:55:00
+epsilon_for_log_rv,1e-12

@@ -1,0 +1,13 @@
+series,lag,q_stat,p_value,reject_5pct,decision_5pct
+z_log_rv_past_12,12,1650164.55867,0,True,rechaza H0
+z_log_rv_past_12,24,2198258.91989,0,True,rechaza H0
+z_log_rv_past_12,48,2835027.4971,0,True,rechaza H0
+z_log_rv_past_12,96,3636665.04812,0,True,rechaza H0
+z_log_rv_past_12,288,4939735.83269,0,True,rechaza H0
+z_log_rv_past_12,2016,5870459.66636,0,True,rechaza H0
+ar_residual,12,1592.27275973,0,True,rechaza H0
+ar_residual,24,1696.02229304,0,True,rechaza H0
+ar_residual,48,1731.53203517,0,True,rechaza H0
+ar_residual,96,1787.03128206,1.83510238326e-309,True,rechaza H0
+ar_residual,288,2070.86515971,9.08406954565e-267,True,rechaza H0
+ar_residual,2016,4396.66034337,2.59350777849e-178,True,rechaza H0

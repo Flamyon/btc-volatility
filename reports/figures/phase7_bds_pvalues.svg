@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="500" viewBox="0 0 1180 500">
+<rect x="0" y="0" width="1180" height="500" fill="#ffffff"/>
+<text x="590.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">BDS en ventanas: resumen de p-values</text>
+<rect x="72" y="58" width="1074.00" height="326.00" fill="none" stroke="#222222" stroke-width="1"/>
+<line x1="72" y1="384.00" x2="1146.00" y2="384.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="388.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0</text>
+<line x1="72" y1="359.46" x2="1146.00" y2="359.46" stroke="#a33" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="64" y="363.46" text-anchor="end" font-family="Arial, sans-serif" font-size="11">p=0.05</text>
+<line x1="72" y1="308.54" x2="1146.00" y2="308.54" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="312.54" text-anchor="end" font-family="Arial, sans-serif" font-size="11">4</text>
+<line x1="72" y1="233.07" x2="1146.00" y2="233.07" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="237.07" text-anchor="end" font-family="Arial, sans-serif" font-size="11">8</text>
+<line x1="72" y1="157.61" x2="1146.00" y2="157.61" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="161.61" text-anchor="end" font-family="Arial, sans-serif" font-size="11">12</text>
+<line x1="72" y1="82.15" x2="1146.00" y2="82.15" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="86.15" text-anchor="end" font-family="Arial, sans-serif" font-size="11">16</text>
+<circle cx="79.46" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<text x="79.46" y="438" text-anchor="end" transform="rotate(-45 79.46,438)" font-family="Arial, sans-serif" font-size="10">middle</text>
+<circle cx="94.38" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="109.29" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="124.21" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="139.12" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="154.04" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="168.96" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="183.88" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="198.79" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="213.71" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<text x="213.71" y="438" text-anchor="end" transform="rotate(-45 213.71,438)" font-family="Arial, sans-serif" font-size="10">recent</text>
+<circle cx="228.62" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="243.54" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="258.46" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="273.38" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="288.29" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="303.21" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="318.12" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="333.04" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="347.96" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<text x="347.96" y="438" text-anchor="end" transform="rotate(-45 347.96,438)" font-family="Arial, sans-serif" font-size="10">high_volatility</text>
+<circle cx="362.88" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="377.79" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="392.71" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="407.62" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="422.54" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="437.46" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="452.38" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="467.29" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="482.21" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<text x="482.21" y="438" text-anchor="end" transform="rotate(-45 482.21,438)" font-family="Arial, sans-serif" font-size="10">quiet</text>
+<circle cx="497.12" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="512.04" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="526.96" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="541.88" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="556.79" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="571.71" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="586.62" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="601.54" cy="82.15" r="3.2" fill="#8a4f9f" opacity="0.82"/>
+<circle cx="616.46" cy="308.55" r="3.2" fill="#60758a" opacity="0.82"/>
+<text x="616.46" y="438" text-anchor="end" transform="rotate(-45 616.46,438)" font-family="Arial, sans-serif" font-size="10">middle</text>
+<circle cx="631.38" cy="328.99" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="646.29" cy="331.83" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="661.21" cy="267.89" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="676.12" cy="301.68" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="691.04" cy="301.95" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="705.96" cy="282.63" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="720.88" cy="310.58" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="735.79" cy="303.64" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="750.71" cy="326.97" r="3.2" fill="#60758a" opacity="0.82"/>
+<text x="750.71" y="438" text-anchor="end" transform="rotate(-45 750.71,438)" font-family="Arial, sans-serif" font-size="10">recent</text>
+<circle cx="765.62" cy="352.88" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="780.54" cy="368.45" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="795.46" cy="313.40" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="810.38" cy="361.15" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="825.29" cy="376.37" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="840.21" cy="319.26" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="855.12" cy="370.31" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="870.04" cy="381.28" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="884.96" cy="366.23" r="3.2" fill="#60758a" opacity="0.82"/>
+<text x="884.96" y="438" text-anchor="end" transform="rotate(-45 884.96,438)" font-family="Arial, sans-serif" font-size="10">high_volatility</text>
+<circle cx="899.88" cy="354.73" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="914.79" cy="334.85" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="929.71" cy="360.51" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="944.62" cy="361.50" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="959.54" cy="348.41" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="974.46" cy="353.29" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="989.38" cy="356.19" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1004.29" cy="345.42" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1019.21" cy="360.19" r="3.2" fill="#60758a" opacity="0.82"/>
+<text x="1019.21" y="438" text-anchor="end" transform="rotate(-45 1019.21,438)" font-family="Arial, sans-serif" font-size="10">quiet</text>
+<circle cx="1034.12" cy="361.44" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1049.04" cy="363.62" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1063.96" cy="363.23" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1078.88" cy="364.65" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1093.79" cy="366.11" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1108.71" cy="354.64" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1123.62" cy="359.51" r="3.2" fill="#60758a" opacity="0.82"/>
+<circle cx="1138.54" cy="366.02" r="3.2" fill="#60758a" opacity="0.82"/>
+<text x="609.00" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">Puntos por serie, ventana, m y epsilon</text>
+<text transform="translate(18,221.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">-log10(p-value), capado en 16</text>
+<g><circle cx="920.00" cy="28.00" r="4" fill="#8a4f9f"/><text x="930.00" y="32.00" font-family="Arial, sans-serif" font-size="12">z_t</text></g>
+<g><circle cx="1000.00" cy="28.00" r="4" fill="#60758a"/><text x="1010.00" y="32.00" font-family="Arial, sans-serif" font-size="12">e_t</text></g>
+</svg>

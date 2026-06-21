@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460">
+<rect x="0" y="0" width="880" height="460" fill="#ffffff"/>
+<text x="440.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Fase 14: histograma errores HAR</text>
+<rect x="76" y="58" width="776.00" height="338.00" fill="none" stroke="#222222"/>
+<line x1="76" y1="396.00" x2="852.00" y2="396.00" stroke="#e8e8e8"/>
+<text x="68" y="400.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0</text>
+<line x1="76" y1="311.50" x2="852.00" y2="311.50" stroke="#e8e8e8"/>
+<text x="68" y="315.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.08e+03</text>
+<line x1="76" y1="227.00" x2="852.00" y2="227.00" stroke="#e8e8e8"/>
+<text x="68" y="231.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">2.16e+03</text>
+<line x1="76" y1="142.50" x2="852.00" y2="142.50" stroke="#e8e8e8"/>
+<text x="68" y="146.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">3.23e+03</text>
+<line x1="76" y1="58.00" x2="852.00" y2="58.00" stroke="#e8e8e8"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">4.31e+03</text>
+<rect x="76.00" y="396.00" width="18.24" height="0.00" fill="#2a6fbb" opacity="0.76"/>
+<rect x="95.40" y="395.76" width="18.24" height="0.24" fill="#2a6fbb" opacity="0.76"/>
+<rect x="114.80" y="394.90" width="18.24" height="1.10" fill="#2a6fbb" opacity="0.76"/>
+<rect x="134.20" y="395.53" width="18.24" height="0.47" fill="#2a6fbb" opacity="0.76"/>
+<rect x="153.60" y="394.98" width="18.24" height="1.02" fill="#2a6fbb" opacity="0.76"/>
+<rect x="173.00" y="395.14" width="18.24" height="0.86" fill="#2a6fbb" opacity="0.76"/>
+<rect x="192.40" y="395.14" width="18.24" height="0.86" fill="#2a6fbb" opacity="0.76"/>
+<rect x="211.80" y="394.43" width="18.24" height="1.57" fill="#2a6fbb" opacity="0.76"/>
+<rect x="231.20" y="391.77" width="18.24" height="4.23" fill="#2a6fbb" opacity="0.76"/>
+<rect x="250.60" y="390.59" width="18.24" height="5.41" fill="#2a6fbb" opacity="0.76"/>
+<rect x="270.00" y="388.71" width="18.24" height="7.29" fill="#2a6fbb" opacity="0.76"/>
+<rect x="289.40" y="386.83" width="18.24" height="9.17" fill="#2a6fbb" opacity="0.76"/>
+<rect x="308.80" y="379.39" width="18.24" height="16.61" fill="#2a6fbb" opacity="0.76"/>
+<rect x="328.20" y="371.79" width="18.24" height="24.21" fill="#2a6fbb" opacity="0.76"/>
+<rect x="347.60" y="363.32" width="18.24" height="32.68" fill="#2a6fbb" opacity="0.76"/>
+<rect x="367.00" y="353.92" width="18.24" height="42.08" fill="#2a6fbb" opacity="0.76"/>
+<rect x="386.40" y="329.23" width="18.24" height="66.77" fill="#2a6fbb" opacity="0.76"/>
+<rect x="405.80" y="312.23" width="18.24" height="83.77" fill="#2a6fbb" opacity="0.76"/>
+<rect x="425.20" y="279.47" width="18.24" height="116.53" fill="#2a6fbb" opacity="0.76"/>
+<rect x="444.60" y="247.34" width="18.24" height="148.66" fill="#2a6fbb" opacity="0.76"/>
+<rect x="464.00" y="212.62" width="18.24" height="183.38" fill="#2a6fbb" opacity="0.76"/>
+<rect x="483.40" y="164.27" width="18.24" height="231.73" fill="#2a6fbb" opacity="0.76"/>
+<rect x="502.80" y="128.85" width="18.24" height="267.15" fill="#2a6fbb" opacity="0.76"/>
+<rect x="522.20" y="112.71" width="18.24" height="283.29" fill="#2a6fbb" opacity="0.76"/>
+<rect x="541.60" y="94.21" width="18.24" height="301.79" fill="#2a6fbb" opacity="0.76"/>
+<rect x="561.00" y="128.46" width="18.24" height="267.54" fill="#2a6fbb" opacity="0.76"/>
+<rect x="580.40" y="194.21" width="18.24" height="201.79" fill="#2a6fbb" opacity="0.76"/>
+<rect x="599.80" y="233.63" width="18.24" height="162.37" fill="#2a6fbb" opacity="0.76"/>
+<rect x="619.20" y="284.72" width="18.24" height="111.28" fill="#2a6fbb" opacity="0.76"/>
+<rect x="638.60" y="333.70" width="18.24" height="62.30" fill="#2a6fbb" opacity="0.76"/>
+<rect x="658.00" y="361.13" width="18.24" height="34.87" fill="#2a6fbb" opacity="0.76"/>
+<rect x="677.40" y="378.37" width="18.24" height="17.63" fill="#2a6fbb" opacity="0.76"/>
+<rect x="696.80" y="387.38" width="18.24" height="8.62" fill="#2a6fbb" opacity="0.76"/>
+<rect x="716.20" y="392.24" width="18.24" height="3.76" fill="#2a6fbb" opacity="0.76"/>
+<rect x="735.60" y="394.28" width="18.24" height="1.72" fill="#2a6fbb" opacity="0.76"/>
+<rect x="755.00" y="395.45" width="18.24" height="0.55" fill="#2a6fbb" opacity="0.76"/>
+<rect x="774.40" y="394.90" width="18.24" height="1.10" fill="#2a6fbb" opacity="0.76"/>
+<rect x="793.80" y="396.00" width="18.24" height="0.00" fill="#2a6fbb" opacity="0.76"/>
+<rect x="813.20" y="395.84" width="18.24" height="0.16" fill="#2a6fbb" opacity="0.76"/>
+<rect x="832.60" y="396.00" width="18.24" height="0.00" fill="#2a6fbb" opacity="0.76"/>
+<line x1="76.00" y1="58" x2="76.00" y2="396.00" stroke="#f0f0f0"/>
+<line x1="76.00" y1="396.00" x2="76.00" y2="401.00" stroke="#222222"/>
+<text x="76.00" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">-4.82</text>
+<line x1="205.33" y1="58" x2="205.33" y2="396.00" stroke="#f0f0f0"/>
+<line x1="205.33" y1="396.00" x2="205.33" y2="401.00" stroke="#222222"/>
+<text x="205.33" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">-3.42</text>
+<line x1="334.67" y1="58" x2="334.67" y2="396.00" stroke="#f0f0f0"/>
+<line x1="334.67" y1="396.00" x2="334.67" y2="401.00" stroke="#222222"/>
+<text x="334.67" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">-2.01</text>
+<line x1="464.00" y1="58" x2="464.00" y2="396.00" stroke="#f0f0f0"/>
+<line x1="464.00" y1="396.00" x2="464.00" y2="401.00" stroke="#222222"/>
+<text x="464.00" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">-0.608</text>
+<line x1="593.33" y1="58" x2="593.33" y2="396.00" stroke="#f0f0f0"/>
+<line x1="593.33" y1="396.00" x2="593.33" y2="401.00" stroke="#222222"/>
+<text x="593.33" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0.796</text>
+<line x1="722.67" y1="58" x2="722.67" y2="396.00" stroke="#f0f0f0"/>
+<line x1="722.67" y1="396.00" x2="722.67" y2="401.00" stroke="#222222"/>
+<text x="722.67" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">2.2</text>
+<line x1="852.00" y1="58" x2="852.00" y2="396.00" stroke="#f0f0f0"/>
+<line x1="852.00" y1="396.00" x2="852.00" y2="401.00" stroke="#222222"/>
+<text x="852.00" y="414.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">3.6</text>
+<text x="464.00" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">error HAR = y_hat - y</text>
+<text transform="translate(18,227.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">frecuencia</text>
+</svg>

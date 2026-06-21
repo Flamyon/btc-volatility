@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430">
+<rect x="0" y="0" width="1040" height="430" fill="#ffffff"/>
+<text x="520.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Entropia de permutacion normalizada</text>
+<rect x="78" y="58" width="924.00" height="314.00" fill="none" stroke="#222222" stroke-width="1"/>
+<line x1="78" y1="372.00" x2="1002.00" y2="372.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="376.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.827</text>
+<line x1="78" y1="293.50" x2="1002.00" y2="293.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="297.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.873</text>
+<line x1="78" y1="215.00" x2="1002.00" y2="215.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="219.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.92</text>
+<line x1="78" y1="136.50" x2="1002.00" y2="136.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="140.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.966</text>
+<line x1="78" y1="58.00" x2="1002.00" y2="58.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.01</text>
+<polyline points="112.22,145.98 326.11,212.22 540.00,266.41 753.89,310.97 967.78,350.34" fill="none" stroke="#5f6b7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="112.22" cy="145.98" r="3.00" fill="#5f6b7a" opacity="0.9"/>
+<circle cx="326.11" cy="212.22" r="3.00" fill="#5f6b7a" opacity="0.9"/>
+<circle cx="540.00" cy="266.41" r="3.00" fill="#5f6b7a" opacity="0.9"/>
+<circle cx="753.89" cy="310.97" r="3.00" fill="#5f6b7a" opacity="0.9"/>
+<circle cx="967.78" cy="350.34" r="3.00" fill="#5f6b7a" opacity="0.9"/>
+<polyline points="112.22,82.51 326.11,97.25 540.00,104.22 753.89,114.24 967.78,127.37" fill="none" stroke="#8a4f9f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="109.22" y="79.51" width="6.00" height="6.00" fill="#8a4f9f" opacity="0.9"/>
+<rect x="323.11" y="94.25" width="6.00" height="6.00" fill="#8a4f9f" opacity="0.9"/>
+<rect x="537.00" y="101.22" width="6.00" height="6.00" fill="#8a4f9f" opacity="0.9"/>
+<rect x="750.89" y="111.24" width="6.00" height="6.00" fill="#8a4f9f" opacity="0.9"/>
+<rect x="964.78" y="124.37" width="6.00" height="6.00" fill="#8a4f9f" opacity="0.9"/>
+<polyline points="112.22,79.66 326.11,79.68 540.00,79.77 753.89,80.24 967.78,82.81" fill="none" stroke="#b45f06" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7,4"/>
+<polygon points="112.22,76.66 109.37,82.21 115.07,82.21" fill="#b45f06" opacity="0.9"/>
+<polygon points="326.11,76.68 323.26,82.23 328.96,82.23" fill="#b45f06" opacity="0.9"/>
+<polygon points="540.00,76.77 537.15,82.32 542.85,82.32" fill="#b45f06" opacity="0.9"/>
+<polygon points="753.89,77.24 751.04,82.79 756.74,82.79" fill="#b45f06" opacity="0.9"/>
+<polygon points="967.78,79.81 964.93,85.36 970.63,85.36" fill="#b45f06" opacity="0.9"/>
+<polyline points="112.22,79.66 326.11,79.69 540.00,79.78 753.89,80.24 967.78,82.85" fill="none" stroke="#6b8e23" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2,4"/>
+<polygon points="112.22,76.66 109.22,79.66 112.22,82.66 115.22,79.66" fill="#6b8e23" opacity="0.9"/>
+<polygon points="326.11,76.69 323.11,79.69 326.11,82.69 329.11,79.69" fill="#6b8e23" opacity="0.9"/>
+<polygon points="540.00,76.78 537.00,79.78 540.00,82.78 543.00,79.78" fill="#6b8e23" opacity="0.9"/>
+<polygon points="753.89,77.24 750.89,80.24 753.89,83.24 756.89,80.24" fill="#6b8e23" opacity="0.9"/>
+<polygon points="967.78,79.85 964.78,82.85 967.78,85.85 970.78,82.85" fill="#6b8e23" opacity="0.9"/>
+<text x="78.00" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">2.84</text>
+<text x="262.80" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">3.7</text>
+<text x="447.60" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">4.57</text>
+<text x="632.40" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">5.43</text>
+<text x="817.20" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">6.3</text>
+<text x="1002.00" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">7.16</text>
+<text x="540.00" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">orden</text>
+<text transform="translate(18,215.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">entropia normalizada</text>
+<g>
+<line x1="795.00" y1="28.00" x2="823.00" y2="28.00" stroke="#5f6b7a" stroke-width="2"/>
+<circle cx="809.00" cy="28.00" r="4.00" fill="#5f6b7a" opacity="0.9"/>
+<text x="831.00" y="32.00" font-family="Arial, sans-serif" font-size="12">original delay=1</text>
+</g>
+<g>
+<line x1="795.00" y1="46.00" x2="823.00" y2="46.00" stroke="#8a4f9f" stroke-width="2"/>
+<rect x="805.00" y="42.00" width="8.00" height="8.00" fill="#8a4f9f" opacity="0.9"/>
+<text x="831.00" y="50.00" font-family="Arial, sans-serif" font-size="12">original delay=137</text>
+</g>
+<g>
+<line x1="795.00" y1="64.00" x2="823.00" y2="64.00" stroke="#b45f06" stroke-width="2" stroke-dasharray="7,4"/>
+<polygon points="809.00,60.00 805.20,67.40 812.80,67.40" fill="#b45f06" opacity="0.9"/>
+<text x="831.00" y="68.00" font-family="Arial, sans-serif" font-size="12">shuffled delay=1</text>
+</g>
+<g>
+<line x1="795.00" y1="82.00" x2="823.00" y2="82.00" stroke="#6b8e23" stroke-width="2" stroke-dasharray="2,4"/>
+<polygon points="809.00,78.00 805.00,82.00 809.00,86.00 813.00,82.00" fill="#6b8e23" opacity="0.9"/>
+<text x="831.00" y="86.00" font-family="Arial, sans-serif" font-size="12">shuffled delay=137</text>
+</g>
+</svg>

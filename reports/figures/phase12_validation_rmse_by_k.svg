@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="440" viewBox="0 0 980 440">
+<rect x="0" y="0" width="980" height="440" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Validation: RMSE por k</text>
+<rect x="76" y="58" width="874.00" height="318.00" fill="none" stroke="#222222" stroke-width="1"/>
+<line x1="76" y1="376.00" x2="950.00" y2="376.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="68" y="380.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.828</text>
+<line x1="76" y1="296.50" x2="950.00" y2="296.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="68" y="300.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.916</text>
+<line x1="76" y1="217.00" x2="950.00" y2="217.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="68" y="221.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1</text>
+<line x1="76" y1="137.50" x2="950.00" y2="137.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="68" y="141.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.09</text>
+<line x1="76" y1="58.00" x2="950.00" y2="58.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.18</text>
+<polyline points="76.00,79.93 80.41,119.72 89.24,172.36 111.31,223.59 155.45,256.51 287.88,290.37 508.59,299.93 950.00,300.59" fill="none" stroke="#b45f06" stroke-width="2"/>
+<circle cx="76.00" cy="79.93" r="3.5" fill="#b45f06"/>
+<circle cx="80.41" cy="119.72" r="3.5" fill="#b45f06"/>
+<circle cx="89.24" cy="172.36" r="3.5" fill="#b45f06"/>
+<circle cx="111.31" cy="223.59" r="3.5" fill="#b45f06"/>
+<circle cx="155.45" cy="256.51" r="3.5" fill="#b45f06"/>
+<circle cx="287.88" cy="290.37" r="3.5" fill="#b45f06"/>
+<circle cx="508.59" cy="299.93" r="3.5" fill="#b45f06"/>
+<circle cx="950.00" cy="300.59" r="3.5" fill="#b45f06"/>
+<polyline points="76.00,153.09 80.41,197.04 89.24,241.70 111.31,290.45 155.45,320.57 287.88,343.26 508.59,351.27 950.00,354.07" fill="none" stroke="#2a6fbb" stroke-width="2"/>
+<circle cx="76.00" cy="153.09" r="3.5" fill="#2a6fbb"/>
+<circle cx="80.41" cy="197.04" r="3.5" fill="#2a6fbb"/>
+<circle cx="89.24" cy="241.70" r="3.5" fill="#2a6fbb"/>
+<circle cx="111.31" cy="290.45" r="3.5" fill="#2a6fbb"/>
+<circle cx="155.45" cy="320.57" r="3.5" fill="#2a6fbb"/>
+<circle cx="287.88" cy="343.26" r="3.5" fill="#2a6fbb"/>
+<circle cx="508.59" cy="351.27" r="3.5" fill="#2a6fbb"/>
+<circle cx="950.00" cy="354.07" r="3.5" fill="#2a6fbb"/>
+<text x="76.00" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">2</text>
+<text x="80.41" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">3</text>
+<text x="89.24" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">5</text>
+<text x="111.31" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">10</text>
+<text x="155.45" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">20</text>
+<text x="287.88" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">50</text>
+<text x="508.59" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">100</text>
+<text x="950.00" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">200</text>
+<g><circle cx="820.00" cy="30.00" r="4" fill="#b45f06"/><text x="830.00" y="34.00" font-family="Arial, sans-serif" font-size="12">tau137_m14</text></g>
+<g><circle cx="820.00" cy="48.00" r="4" fill="#2a6fbb"/><text x="830.00" y="52.00" font-family="Arial, sans-serif" font-size="12">tau137_m5</text></g>
+<text x="513.00" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">k</text>
+<text transform="translate(18,217.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">RMSE</text>
+</svg>

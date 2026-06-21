@@ -1,0 +1,18 @@
+column,definition
+log_close,log(close)
+r,log(close_t) - log(close_{t-1})
+r2,r_t^2
+abs_r,|r_t|
+hl_range,log(high / low)
+log_volume,log(volume + 1)
+log_trades,log(trades + 1)
+rv_past_12,sum_{i=0}^{11} r_{t-i}^2
+rv_past_48,sum_{i=0}^{47} r_{t-i}^2
+rv_past_288,sum_{i=0}^{287} r_{t-i}^2
+rv_future_12,sum_{i=1}^{12} r_{t+i}^2
+rv_future_48,sum_{i=1}^{48} r_{t+i}^2
+log_rv_past_12,log(rv_past_12 + epsilon)
+log_rv_past_48,log(rv_past_48 + epsilon)
+log_rv_past_288,log(rv_past_288 + epsilon)
+log_rv_future_12,log(rv_future_12 + epsilon)
+log_rv_future_48,log(rv_future_48 + epsilon)

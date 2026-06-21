@@ -1,0 +1,79 @@
+{
+  "series": "z_log_rv_past_12",
+  "tau": 137,
+  "m": 5,
+  "train_size": 157248,
+  "train_vectors": 156700,
+  "theiler_window": 685,
+  "random_seed": 20260602,
+  "correlation_dimension": {
+    "original": {
+      "series": "original",
+      "d2_estimate": 3.830097994998342,
+      "slope_std": 0.39281195352837556,
+      "n_scaling_points": 16,
+      "plateau_clear": true,
+      "scaling_radius_min": 1.116456040189866,
+      "scaling_radius_max": 2.084015908367261,
+      "scaling_status": "stable_plateau"
+    },
+    "shuffled": {
+      "series": "shuffled",
+      "d2_estimate": 4.01529176693481,
+      "slope_std": 0.3427516857312696,
+      "n_scaling_points": 15,
+      "plateau_clear": true,
+      "scaling_radius_min": 1.2133410228691985,
+      "scaling_radius_max": 2.172559386527154,
+      "scaling_status": "stable_plateau"
+    },
+    "sample_size": 2500,
+    "radii_count": 32,
+    "metric": "euclidean",
+    "theiler_window": 685
+  },
+  "lyapunov": {
+    "original": {
+      "series": "original",
+      "fit_start_k": 1,
+      "fit_end_k": 30,
+      "slope_per_5min_step": 0.021256160608416227,
+      "slope_per_hour": 0.2550739273009947,
+      "intercept": 0.2778086069272976,
+      "r_squared": 0.7560042420333699,
+      "n_fit_points": 30,
+      "block_size": 3000,
+      "block_start_embedding_index": 76850,
+      "nearest_neighbor_pairs": 2940,
+      "k_max": 60
+    },
+    "shuffled": {
+      "series": "shuffled",
+      "fit_start_k": 1,
+      "fit_end_k": 30,
+      "slope_per_5min_step": 0.0001677449199405424,
+      "slope_per_hour": 0.0020129390392865086,
+      "intercept": 1.0536949569623226,
+      "r_squared": 0.03528888730044988,
+      "n_fit_points": 30,
+      "block_size": 3000,
+      "block_start_embedding_index": 76850,
+      "nearest_neighbor_pairs": 2940,
+      "k_max": 60
+    }
+  },
+  "permutation_entropy": {
+    "delay_1_original_mean": 0.8947680973973616,
+    "delay_1_shuffled_mean": 0.9995385020959432,
+    "delay_tau": 137,
+    "delay_tau_original_mean": 0.9849035332830167,
+    "delay_tau_shuffled_mean": 0.9995297137411885,
+    "orders": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

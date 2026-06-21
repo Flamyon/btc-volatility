@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500">
+<rect x="0" y="0" width="980" height="500" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Subrogadas: dimension de correlacion D2</text>
+<rect x="82" y="58" width="868.00" height="324.00" fill="none" stroke="#222222" stroke-width="1"/>
+<line x1="82" y1="382.00" x2="950.00" y2="382.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="74" y="386.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">3.84</text>
+<line x1="82" y1="301.00" x2="950.00" y2="301.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="74" y="305.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">3.93</text>
+<line x1="82" y1="220.00" x2="950.00" y2="220.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="74" y="224.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">4.01</text>
+<line x1="82" y1="139.00" x2="950.00" y2="139.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="74" y="143.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">4.1</text>
+<line x1="82" y1="58.00" x2="950.00" y2="58.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="74" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">4.19</text>
+<rect x="398.10" y="85.00" width="55.80" height="169.32" fill="#6f7f8f" opacity="0.42"/>
+<line x1="393.64" y1="159.34" x2="458.36" y2="159.34" stroke="#6f7f8f" stroke-width="2"/>
+<rect x="488.10" y="188.20" width="55.80" height="166.80" fill="#b45f06" opacity="0.42"/>
+<line x1="483.64" y1="269.57" x2="548.36" y2="269.57" stroke="#b45f06" stroke-width="2"/>
+<rect x="578.10" y="151.68" width="55.80" height="193.73" fill="#6b8e23" opacity="0.42"/>
+<line x1="573.64" y1="261.87" x2="638.36" y2="261.87" stroke="#6b8e23" stroke-width="2"/>
+<line x1="349.50" y1="297.98" x2="682.50" y2="297.98" stroke="#8a2222" stroke-width="2.2" stroke-dasharray="4,3"/>
+<text x="516.00" y="428" text-anchor="end" transform="rotate(-28 516.00,428)" font-family="Arial, sans-serif" font-size="11">d2</text>
+<g><circle cx="748.00" cy="28.00" r="4" fill="#6f7f8f"/><text x="758.00" y="32.00" font-family="Arial, sans-serif" font-size="12">barajadas p05-p95</text></g>
+<g><circle cx="748.00" cy="46.00" r="4" fill="#b45f06"/><text x="758.00" y="50.00" font-family="Arial, sans-serif" font-size="12">phase randomized</text></g>
+<g><circle cx="748.00" cy="64.00" r="4" fill="#6b8e23"/><text x="758.00" y="68.00" font-family="Arial, sans-serif" font-size="12">AAFT</text></g>
+<g><line x1="748.00" y1="82.00" x2="776.00" y2="82.00" stroke="#8a2222" stroke-width="2" stroke-dasharray="4,3"/><text x="784.00" y="86.00" font-family="Arial, sans-serif" font-size="12">original</text></g>
+<text x="516.00" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">estadistico</text>
+<text transform="translate(18,220.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">D2 aproximada</text>
+</svg>

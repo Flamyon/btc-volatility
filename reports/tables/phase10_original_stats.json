@@ -1,0 +1,7 @@
+{
+  "d2": 3.9303784466988088,
+  "lyapunov_slope_per_step": 0.027822714540272676,
+  "lyapunov_slope_per_hour": 0.3338725744832721,
+  "permutation_entropy_delay_1": 0.8886815438142835,
+  "permutation_entropy_delay_tau": 0.9686906077919424
+}

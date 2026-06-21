@@ -1,0 +1,4 @@
+series_name,tau,m,slope_per_step,fit_start,fit_end,r2_fit,theoretical_ln2,n_fit_points
+logistic_clean,9,5,0.185185968078,1,6,0.686203234306,0.69314718056,6
+logistic_noise_small,9,6,0.131452354829,1,6,0.633133475617,0.69314718056,6
+logistic_noise_moderate,5,5,-0.00837914740339,1,6,0.00135570956389,0.69314718056,6

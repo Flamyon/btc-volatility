@@ -1,0 +1,5 @@
+series,window,start_time,end_time,start_index,end_index_exclusive,n,normalization,metric,target_rr,epsilon,estimated_rr_from_sorted_values,achieved_rr,mean_before_zscore,std_before_zscore,figure_file
+ar_residual,quiet,2025-07-30 20:30:00,2025-08-06 19:05:00,165846,167846,2000,z-score por ventana,absolute_distance_1d,0.05,0.0494838259685,0.05,0.05,-0.00945173838582,0.166238810099,phase6_quiet_ar_residual_rp.png
+ar_residual,high_volatility,2025-10-07 10:25:00,2025-10-14 09:00:00,185597,187597,2000,z-score por ventana,absolute_distance_1d,0.05,0.0474849919824,0.05,0.05,0.00219130296613,0.178706165766,phase6_high_volatility_ar_residual_rp.png
+ar_residual,recent,2026-04-23 21:20:00,2026-04-30 19:55:00,242752,244752,2000,z-score por ventana,absolute_distance_1d,0.05,0.0406613653722,0.05,0.05,-0.0101343512554,0.210117411635,phase6_recent_ar_residual_rp.png
+ar_residual,middle,2025-02-26 10:40:00,2025-03-05 09:15:00,121376,123376,2000,z-score por ventana,absolute_distance_1d,0.05,0.050169518752,0.05,0.05,0.0131511616892,0.169982081638,phase6_middle_ar_residual_rp.png

@@ -1,0 +1,5 @@
+window,description,selection_method,start_index,end_index_exclusive,start_time,end_time,n,reference_value,reference_time,mean_log_rv_past_12,min_log_rv_past_12,max_log_rv_past_12
+quiet,Ventana tranquila,rolling mean de log_rv_past_12 mas cercano al percentil 10 de medias rolling de 2000 observaciones,165846,167846,2025-07-30 20:30:00,2025-08-06 19:05:00,2000,-11.9688394706,,-11.9688425638,-14.4352405243,-9.47071708816
+high_volatility,Ventana de alta volatilidad,ventana centrada en el maximo de log_rv_past_12 dentro del dataset procesado,185597,187597,2025-10-07 10:25:00,2025-10-14 09:00:00,2000,-4.67910262285,2025-10-10 21:45:00,-11.0326630468,-13.3048917776,-4.67910262285
+recent,Ventana reciente,ultimas observaciones disponibles del dataset procesado,242752,244752,2026-04-23 21:20:00,2026-04-30 19:55:00,2000,,,-12.0330528722,-15.1948816463,-8.57561072347
+middle,Ventana continua representativa,bloque continuo centrado en la mitad del dataset procesado,121376,123376,2025-02-26 10:40:00,2025-03-05 09:15:00,2000,,,-9.98352978841,-12.7270446308,-6.95603936127

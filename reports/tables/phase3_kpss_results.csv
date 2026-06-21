@@ -1,0 +1,6 @@
+series,regression,nlags,nobs,kpss_statistic,long_run_variance,critical_1pct,critical_5pct,critical_10pct,p_value_range,reject_stationarity_5pct
+close,constant,84,244752,137.359396764,84.944744462,0.739,0.463,0.347,< 0.01,True
+log_close,constant,84,244752,143.540727336,84.9396666038,0.739,0.463,0.347,< 0.01,True
+r,constant,84,244752,0.272420946295,0.919561936937,0.739,0.463,0.347,> 0.10,False
+abs_r,constant,84,244752,8.48004978457,17.1342369841,0.739,0.463,0.347,< 0.01,True
+log_rv_past_12,constant,84,244752,10.4994457822,55.2952105314,0.739,0.463,0.347,< 0.01,True

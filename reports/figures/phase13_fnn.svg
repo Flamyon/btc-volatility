@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Falsos vecinos</text>
+<rect x="76" y="58" width="876.00" height="340.00" fill="none" stroke="#222222"/>
+<line x1="76" y1="398.00" x2="952.00" y2="398.00" stroke="#e8e8e8"/>
+<text x="68" y="402.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0</text>
+<line x1="76" y1="313.00" x2="952.00" y2="313.00" stroke="#e8e8e8"/>
+<text x="68" y="317.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">25</text>
+<line x1="76" y1="228.00" x2="952.00" y2="228.00" stroke="#e8e8e8"/>
+<text x="68" y="232.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">50</text>
+<line x1="76" y1="143.00" x2="952.00" y2="143.00" stroke="#e8e8e8"/>
+<text x="68" y="147.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">75</text>
+<line x1="76" y1="58.00" x2="952.00" y2="58.00" stroke="#e8e8e8"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">100</text>
+<polyline points="76.00,63.67 173.33,141.58 270.67,280.13 368.00,319.23 465.33,326.03 562.67,325.18 660.00,307.05 757.33,293.73 854.67,271.63 952.00,232.25" fill="none" stroke="#2a6fbb" stroke-width="2"/>
+<polyline points="76.00,63.10 173.33,143.00 270.67,282.40 368.00,317.82 465.33,324.05 562.67,324.62 660.00,307.33 757.33,295.72 854.67,271.92 952.00,231.68" fill="none" stroke="#6b8e23" stroke-width="2"/>
+<polyline points="76.00,64.23 173.33,133.08 270.67,262.85 368.00,312.72 465.33,330.00 562.67,317.53 660.00,308.18 757.33,288.63 854.67,273.62 952.00,222.62" fill="none" stroke="#b45f06" stroke-width="2"/>
+<g><circle cx="730.00" cy="28.00" r="4" fill="#2a6fbb"/><text x="740.00" y="32.00" font-family="Arial, sans-serif" font-size="12">logistic_clean</text></g>
+<g><circle cx="730.00" cy="46.00" r="4" fill="#6b8e23"/><text x="740.00" y="50.00" font-family="Arial, sans-serif" font-size="12">logistic_noise_small</text></g>
+<g><circle cx="730.00" cy="64.00" r="4" fill="#b45f06"/><text x="740.00" y="68.00" font-family="Arial, sans-serif" font-size="12">logistic_noise_moderate</text></g>
+<line x1="76.00" y1="58" x2="76.00" y2="398.00" stroke="#f0f0f0"/>
+<line x1="76.00" y1="398.00" x2="76.00" y2="403.00" stroke="#222222"/>
+<text x="76.00" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">1</text>
+<line x1="251.20" y1="58" x2="251.20" y2="398.00" stroke="#f0f0f0"/>
+<line x1="251.20" y1="398.00" x2="251.20" y2="403.00" stroke="#222222"/>
+<text x="251.20" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">2.8</text>
+<line x1="426.40" y1="58" x2="426.40" y2="398.00" stroke="#f0f0f0"/>
+<line x1="426.40" y1="398.00" x2="426.40" y2="403.00" stroke="#222222"/>
+<text x="426.40" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">4.6</text>
+<line x1="601.60" y1="58" x2="601.60" y2="398.00" stroke="#f0f0f0"/>
+<line x1="601.60" y1="398.00" x2="601.60" y2="403.00" stroke="#222222"/>
+<text x="601.60" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">6.4</text>
+<line x1="776.80" y1="58" x2="776.80" y2="398.00" stroke="#f0f0f0"/>
+<line x1="776.80" y1="398.00" x2="776.80" y2="403.00" stroke="#222222"/>
+<text x="776.80" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">8.2</text>
+<line x1="952.00" y1="58" x2="952.00" y2="398.00" stroke="#f0f0f0"/>
+<line x1="952.00" y1="398.00" x2="952.00" y2="403.00" stroke="#222222"/>
+<text x="952.00" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">10</text>
+<text x="514.00" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">m</text>
+<text transform="translate(18,228.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">FNN (%)</text>
+</svg>

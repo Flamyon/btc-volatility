@@ -1,0 +1,8 @@
+column,parse_errors,non_positive_count,zero_count,negative_count
+open,0,0,0,0
+high,0,0,0,0
+low,0,0,0,0
+close,0,0,0,0
+volume,0,0,0,0
+trades,0,0,0,0
+taker_buy_quote,0,0,0,0

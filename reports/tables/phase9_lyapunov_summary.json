@@ -1,0 +1,30 @@
+{
+  "original": {
+    "series": "original",
+    "fit_start_k": 1,
+    "fit_end_k": 30,
+    "slope_per_5min_step": 0.021256160608416227,
+    "slope_per_hour": 0.2550739273009947,
+    "intercept": 0.2778086069272976,
+    "r_squared": 0.7560042420333699,
+    "n_fit_points": 30,
+    "block_size": 3000,
+    "block_start_embedding_index": 76850,
+    "nearest_neighbor_pairs": 2940,
+    "k_max": 60
+  },
+  "shuffled": {
+    "series": "shuffled",
+    "fit_start_k": 1,
+    "fit_end_k": 30,
+    "slope_per_5min_step": 0.0001677449199405424,
+    "slope_per_hour": 0.0020129390392865086,
+    "intercept": 1.0536949569623226,
+    "r_squared": 0.03528888730044988,
+    "n_fit_points": 30,
+    "block_size": 3000,
+    "block_start_embedding_index": 76850,
+    "nearest_neighbor_pairs": 2940,
+    "k_max": 60
+  }
+}

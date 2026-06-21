@@ -1,0 +1,4 @@
+series_name,tau_selected,m_fnn,m_cao,m_selected,tau_selection_note,selection_note
+logistic_clean,9,5,10,5,primer minimo local de AMI,FNN y Cao discrepan; se usa FNN=5 de forma operativa
+logistic_noise_small,9,6,10,6,primer minimo local de AMI,FNN y Cao discrepan; se usa FNN=6 de forma operativa
+logistic_noise_moderate,5,5,10,5,primer minimo local de AMI,FNN y Cao discrepan; se usa FNN=5 de forma operativa

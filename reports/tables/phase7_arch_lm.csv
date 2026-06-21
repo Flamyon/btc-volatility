@@ -1,0 +1,6 @@
+series,lag,nobs_effective,lm_stat,r_squared_yw,p_value,reject_5pct,decision_5pct,implementation_note
+ar_residual,12,244691,1589.07346223,0.00649420478166,0,True,rechaza H0,aproximacion Yule-Walker para evitar OLS masivo
+ar_residual,24,244679,1644.40399934,0.00672065849272,0,True,rechaza H0,aproximacion Yule-Walker para evitar OLS masivo
+ar_residual,48,244655,1672.62763926,0.00683667874871,4.05153592216e-319,True,rechaza H0,aproximacion Yule-Walker para evitar OLS masivo
+ar_residual,96,244607,1724.21632174,0.00704892469038,1.49359824779e-296,True,rechaza H0,aproximacion Yule-Walker para evitar OLS masivo
+ar_residual,288,244415,1987.11385263,0.00813008142967,3.83463235572e-251,True,rechaza H0,aproximacion Yule-Walker para evitar OLS masivo

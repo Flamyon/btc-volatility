@@ -1,0 +1,190 @@
+{
+  "objective": "HAR-logRV compacto exportable para MVP",
+  "target": "log_rv_future_12",
+  "features": [
+    "log_rv_past_12",
+    "log_rv_past_48",
+    "log_rv_past_288"
+  ],
+  "horizon_bars": 12,
+  "horizon_minutes": 60,
+  "split": {
+    "train": [
+      "2024-01-02 00:00:00",
+      "2025-06-30 23:55:00",
+      157248
+    ],
+    "validation": [
+      "2025-07-01 00:00:00",
+      "2025-12-31 23:55:00",
+      52992
+    ],
+    "test": [
+      "2026-01-01 00:00:00",
+      "2026-04-30 19:55:00",
+      34512
+    ]
+  },
+  "alignment_check": {
+    "horizon": 12,
+    "n_checked": 244740,
+    "max_abs_difference_y_t_vs_x_t_plus_horizon": 0.0,
+    "mean_abs_difference_y_t_vs_x_t_plus_horizon": 0.0
+  },
+  "leakage_controls": {
+    "har_train_only": true,
+    "features_are_past_only": [
+      "log_rv_past_12",
+      "log_rv_past_48",
+      "log_rv_past_288"
+    ],
+    "target": "log_rv_future_12",
+    "test_used_for_training": false,
+    "test_used_for_feature_selection": false,
+    "knn_k_fixed_from_phase12": 200,
+    "knn_neighbors_for_test": "train+validation only"
+  },
+  "har_coefficients": [
+    {
+      "term": "intercept",
+      "feature": "intercept",
+      "coefficient": -2.438645612735968
+    },
+    {
+      "term": "beta_1",
+      "feature": "log_rv_past_12",
+      "coefficient": 0.4452067045934396
+    },
+    {
+      "term": "beta_2",
+      "feature": "log_rv_past_48",
+      "coefficient": 0.2334397348903525
+    },
+    {
+      "term": "beta_3",
+      "feature": "log_rv_past_288",
+      "coefficient": 0.19992385058134796
+    }
+  ],
+  "test_metrics": [
+    {
+      "model": "historical_mean",
+      "split": "test_knn_comparable_sample",
+      "n": 5000,
+      "mae": 0.996536415516156,
+      "mse": 1.601366228832332,
+      "rmse": 1.2654509981948459,
+      "r2_oos": 0.0,
+      "bias_yhat_minus_y": 0.06584553978623324,
+      "error_std": 1.2638631507150362
+    },
+    {
+      "model": "persistence",
+      "split": "test_knn_comparable_sample",
+      "n": 5000,
+      "mae": 0.7628623802504745,
+      "mse": 0.9555054221363347,
+      "rmse": 0.9774995765402329,
+      "r2_oos": 0.4033186132362362,
+      "bias_yhat_minus_y": -0.004310776630425997,
+      "error_std": 0.977587834895753
+    },
+    {
+      "model": "ar49_horizon12",
+      "split": "test_knn_comparable_sample",
+      "n": 5000,
+      "mae": 0.6709895921582475,
+      "mse": 0.7466109562664975,
+      "rmse": 0.8640665230562388,
+      "r2_oos": 0.5337662660646317,
+      "bias_yhat_minus_y": 0.008764449991555713,
+      "error_std": 0.864108487042176
+    },
+    {
+      "model": "knn_tau137_m5_k200",
+      "split": "test_knn_comparable_sample",
+      "n": 5000,
+      "mae": 0.681143476346057,
+      "mse": 0.7683090447491571,
+      "rmse": 0.8765323980031525,
+      "r2_oos": 0.5202165307873485,
+      "bias_yhat_minus_y": -0.018153319293789445,
+      "error_std": 0.876432044355665
+    },
+    {
+      "model": "har_logrv_compact",
+      "split": "test_knn_comparable_sample",
+      "n": 5000,
+      "mae": 0.6691291615731025,
+      "mse": 0.7409952062288936,
+      "rmse": 0.860810784219676,
+      "r2_oos": 0.5372731153639946,
+      "bias_yhat_minus_y": 0.02000159101336973,
+      "error_std": 0.8606644475311367
+    },
+    {
+      "model": "historical_mean",
+      "split": "test_full",
+      "n": 34512,
+      "mae": 0.9988669423389027,
+      "mse": 1.6062220570806154,
+      "rmse": 1.2673681616170636,
+      "r2_oos": 0.0,
+      "bias_yhat_minus_y": 0.06633687698672656,
+      "error_std": 1.2656491973059958
+    },
+    {
+      "model": "persistence",
+      "split": "test_full",
+      "n": 34512,
+      "mae": 0.7602791864984783,
+      "mse": 0.9524769727042659,
+      "rmse": 0.975949267484876,
+      "r2_oos": 0.40700791120037416,
+      "bias_yhat_minus_y": -0.00011127148801865585,
+      "error_std": 0.9759634007230961
+    },
+    {
+      "model": "ar49_horizon12",
+      "split": "test_full",
+      "n": 34512,
+      "mae": 0.6727798324839562,
+      "mse": 0.7480739036399658,
+      "rmse": 0.8649126566538183,
+      "r2_oos": 0.5342649540004291,
+      "bias_yhat_minus_y": 0.011539495207482655,
+      "error_std": 0.8648482041503502
+    },
+    {
+      "model": "har_logrv_compact",
+      "split": "test_full",
+      "n": 34512,
+      "mae": 0.6689076154649356,
+      "mse": 0.7411695525261237,
+      "rmse": 0.8609120469165963,
+      "r2_oos": 0.5385634574877931,
+      "bias_yhat_minus_y": 0.022381976210160928,
+      "error_std": 0.8606335233298802
+    }
+  ],
+  "mvp_1000_mode": [
+    {
+      "n_input_rows": 1000,
+      "n_effective_rows": 1000,
+      "train_n": 700,
+      "test_n": 300,
+      "rmse_test_mvp": 0.7289710241433107,
+      "mae_test_mvp": 0.5763807228861302,
+      "r2_oos_test_mvp": -0.18044746248563648,
+      "last_timestamp": "2026-04-30 19:55:00",
+      "last_log_rv_past_12": -12.7318869938,
+      "last_log_rv_past_48": -10.7274073467,
+      "last_log_rv_past_288": -8.36983600955,
+      "predicted_log_rv_future_12": -12.148793273720539,
+      "intercept": -7.647170961348166,
+      "beta_log_rv_past_12": 0.4419348809019835,
+      "beta_log_rv_past_48": 0.009502417302647866,
+      "beta_log_rv_past_288": -0.1465953394635201
+    }
+  ]
+}

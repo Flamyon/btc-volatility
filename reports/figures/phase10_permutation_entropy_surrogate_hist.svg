@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430">
+<rect x="0" y="0" width="980" height="430" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Entropia de permutacion delay=1: original vs contrastes</text>
+<rect x="72" y="58" width="878.00" height="314.00" fill="none" stroke="#222222" stroke-width="1"/>
+<line x1="72" y1="372.00" x2="950.00" y2="372.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="376.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0</text>
+<line x1="72" y1="293.50" x2="950.00" y2="293.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="297.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">12.5</text>
+<line x1="72" y1="215.00" x2="950.00" y2="215.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="219.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">25</text>
+<line x1="72" y1="136.50" x2="950.00" y2="136.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="140.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">37.5</text>
+<line x1="72" y1="58.00" x2="950.00" y2="58.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="64" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">50</text>
+<rect x="72.00" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="108.58" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="145.17" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="181.75" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="218.33" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="254.92" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="291.50" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="328.08" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="364.67" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="401.25" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="437.83" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="474.42" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="511.00" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="547.58" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="584.17" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="620.75" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="657.33" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="693.92" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="730.50" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="767.08" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="803.67" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="840.25" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="876.83" y="58.00" width="8.13" height="314.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="913.42" y="372.00" width="8.13" height="0.00" fill="#6f7f8f" opacity="0.65"/>
+<rect x="81.15" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="117.73" y="346.88" width="8.13" height="25.12" fill="#b45f06" opacity="0.65"/>
+<rect x="154.31" y="196.16" width="8.13" height="175.84" fill="#b45f06" opacity="0.65"/>
+<rect x="190.90" y="328.04" width="8.13" height="43.96" fill="#b45f06" opacity="0.65"/>
+<rect x="227.48" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="264.06" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="300.65" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="337.23" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="373.81" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="410.40" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="446.98" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="483.56" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="520.15" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="556.73" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="593.31" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="629.90" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="666.48" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="703.06" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="739.65" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="776.23" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="812.81" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="849.40" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="885.98" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="922.56" y="372.00" width="8.13" height="0.00" fill="#b45f06" opacity="0.65"/>
+<rect x="90.29" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="126.88" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="163.46" y="290.36" width="8.13" height="81.64" fill="#6b8e23" opacity="0.65"/>
+<rect x="200.04" y="221.28" width="8.13" height="150.72" fill="#6b8e23" opacity="0.65"/>
+<rect x="236.62" y="359.44" width="8.13" height="12.56" fill="#6b8e23" opacity="0.65"/>
+<rect x="273.21" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="309.79" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="346.38" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="382.96" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="419.54" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="456.13" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="492.71" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="529.29" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="565.88" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="602.46" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="639.04" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="675.62" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="712.21" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="748.79" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="785.38" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="821.96" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="858.54" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="895.12" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<rect x="931.71" y="372.00" width="8.13" height="0.00" fill="#6b8e23" opacity="0.65"/>
+<line x1="148.59" y1="58" x2="148.59" y2="372.00" stroke="#8a2222" stroke-width="2" stroke-dasharray="4,3"/>
+<g><circle cx="810.00" cy="28.00" r="4" fill="#6f7f8f"/><text x="820.00" y="32.00" font-family="Arial, sans-serif" font-size="12">barajadas</text></g>
+<g><circle cx="810.00" cy="46.00" r="4" fill="#b45f06"/><text x="820.00" y="50.00" font-family="Arial, sans-serif" font-size="12">phase</text></g>
+<g><circle cx="810.00" cy="64.00" r="4" fill="#6b8e23"/><text x="820.00" y="68.00" font-family="Arial, sans-serif" font-size="12">AAFT</text></g>
+<g><line x1="810.00" y1="82.00" x2="838.00" y2="82.00" stroke="#8a2222" stroke-width="2" stroke-dasharray="4,3"/><text x="846.00" y="86.00" font-family="Arial, sans-serif" font-size="12">original</text></g>
+<line x1="72.00" y1="58" x2="72.00" y2="372.00" stroke="#f0f0f0"/>
+<line x1="72.00" y1="372.00" x2="72.00" y2="377.00" stroke="#222222"/>
+<text x="72.00" y="390.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0.877</text>
+<line x1="247.60" y1="58" x2="247.60" y2="372.00" stroke="#f0f0f0"/>
+<line x1="247.60" y1="372.00" x2="247.60" y2="377.00" stroke="#222222"/>
+<text x="247.60" y="390.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0.903</text>
+<line x1="423.20" y1="58" x2="423.20" y2="372.00" stroke="#f0f0f0"/>
+<line x1="423.20" y1="372.00" x2="423.20" y2="377.00" stroke="#222222"/>
+<text x="423.20" y="390.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0.93</text>
+<line x1="598.80" y1="58" x2="598.80" y2="372.00" stroke="#f0f0f0"/>
+<line x1="598.80" y1="372.00" x2="598.80" y2="377.00" stroke="#222222"/>
+<text x="598.80" y="390.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0.956</text>
+<line x1="774.40" y1="58" x2="774.40" y2="372.00" stroke="#f0f0f0"/>
+<line x1="774.40" y1="372.00" x2="774.40" y2="377.00" stroke="#222222"/>
+<text x="774.40" y="390.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0.982</text>
+<line x1="950.00" y1="58" x2="950.00" y2="372.00" stroke="#f0f0f0"/>
+<line x1="950.00" y1="372.00" x2="950.00" y2="377.00" stroke="#222222"/>
+<text x="950.00" y="390.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">1.01</text>
+<text x="511.00" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">entropia de permutacion normalizada (delay=1)</text>
+<text transform="translate(18,215.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">frecuencia</text>
+</svg>

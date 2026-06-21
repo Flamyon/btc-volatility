@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Rosenstein: divergencia media</text>
+<rect x="76" y="58" width="876.00" height="340.00" fill="none" stroke="#222222"/>
+<line x1="76" y1="398.00" x2="952.00" y2="398.00" stroke="#e8e8e8"/>
+<text x="68" y="402.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-1</text>
+<line x1="76" y1="313.00" x2="952.00" y2="313.00" stroke="#e8e8e8"/>
+<text x="68" y="317.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">-0.413</text>
+<line x1="76" y1="228.00" x2="952.00" y2="228.00" stroke="#e8e8e8"/>
+<text x="68" y="232.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.179</text>
+<line x1="76" y1="143.00" x2="952.00" y2="143.00" stroke="#e8e8e8"/>
+<text x="68" y="147.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.771</text>
+<line x1="76" y1="58.00" x2="952.00" y2="58.00" stroke="#e8e8e8"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.36</text>
+<polyline points="76.00,374.55 119.80,250.15 163.60,154.39 207.40,112.33 251.20,98.02 295.00,98.88 338.80,100.19 382.60,99.48 426.40,111.30 470.20,247.72 514.00,196.67 557.80,140.59 601.60,108.55 645.40,98.79 689.20,98.79 733.00,98.66 776.80,98.41 820.60,106.66 864.40,184.55 908.20,159.19 952.00,128.05" fill="none" stroke="#2a6fbb" stroke-width="2"/>
+<polyline points="76.00,317.42 119.80,194.94 163.60,115.92 207.40,87.49 251.20,84.90 295.00,81.80 338.80,83.81 382.60,81.90 426.40,90.80 470.20,229.45 514.00,164.37 557.80,108.87 601.60,85.61 645.40,83.60 689.20,81.45 733.00,82.59 776.80,82.03 820.60,87.29 864.40,178.86 908.20,142.33 952.00,103.24" fill="none" stroke="#6b8e23" stroke-width="2"/>
+<polyline points="76.00,371.85 119.80,242.50 163.60,149.35 207.40,113.11 251.20,109.43 295.00,245.61 338.80,193.90 382.60,138.49 426.40,108.32 470.20,106.05 514.00,177.98 557.80,158.68 601.60,127.01 645.40,105.44 689.20,102.69 733.00,140.46 776.80,133.11 820.60,116.65 864.40,103.98 908.20,101.18 952.00,116.70" fill="none" stroke="#b45f06" stroke-width="2"/>
+<g><circle cx="730.00" cy="28.00" r="4" fill="#2a6fbb"/><text x="740.00" y="32.00" font-family="Arial, sans-serif" font-size="12">logistic_clean</text></g>
+<g><circle cx="730.00" cy="46.00" r="4" fill="#6b8e23"/><text x="740.00" y="50.00" font-family="Arial, sans-serif" font-size="12">logistic_noise_small</text></g>
+<g><circle cx="730.00" cy="64.00" r="4" fill="#b45f06"/><text x="740.00" y="68.00" font-family="Arial, sans-serif" font-size="12">logistic_noise_moderate</text></g>
+<line x1="76.00" y1="58" x2="76.00" y2="398.00" stroke="#f0f0f0"/>
+<line x1="76.00" y1="398.00" x2="76.00" y2="403.00" stroke="#222222"/>
+<text x="76.00" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">0</text>
+<line x1="251.20" y1="58" x2="251.20" y2="398.00" stroke="#f0f0f0"/>
+<line x1="251.20" y1="398.00" x2="251.20" y2="403.00" stroke="#222222"/>
+<text x="251.20" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">4</text>
+<line x1="426.40" y1="58" x2="426.40" y2="398.00" stroke="#f0f0f0"/>
+<line x1="426.40" y1="398.00" x2="426.40" y2="403.00" stroke="#222222"/>
+<text x="426.40" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">8</text>
+<line x1="601.60" y1="58" x2="601.60" y2="398.00" stroke="#f0f0f0"/>
+<line x1="601.60" y1="398.00" x2="601.60" y2="403.00" stroke="#222222"/>
+<text x="601.60" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">12</text>
+<line x1="776.80" y1="58" x2="776.80" y2="398.00" stroke="#f0f0f0"/>
+<line x1="776.80" y1="398.00" x2="776.80" y2="403.00" stroke="#222222"/>
+<text x="776.80" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">16</text>
+<line x1="952.00" y1="58" x2="952.00" y2="398.00" stroke="#f0f0f0"/>
+<line x1="952.00" y1="398.00" x2="952.00" y2="403.00" stroke="#222222"/>
+<text x="952.00" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">20</text>
+<text x="514.00" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">k</text>
+<text transform="translate(18,228.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">log distancia media</text>
+</svg>

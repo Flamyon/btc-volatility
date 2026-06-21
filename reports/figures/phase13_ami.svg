@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480" viewBox="0 0 980 480">
+<rect x="0" y="0" width="980" height="480" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">AMI del mapa logistico</text>
+<rect x="76" y="58" width="876.00" height="360.00" fill="none" stroke="#222222"/>
+<line x1="76" y1="418.00" x2="952.00" y2="418.00" stroke="#e8e8e8"/>
+<text x="68" y="422.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0</text>
+<line x1="76" y1="328.00" x2="952.00" y2="328.00" stroke="#e8e8e8"/>
+<text x="68" y="332.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.714</text>
+<line x1="76" y1="238.00" x2="952.00" y2="238.00" stroke="#e8e8e8"/>
+<text x="68" y="242.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.43</text>
+<line x1="76" y1="148.00" x2="952.00" y2="148.00" stroke="#e8e8e8"/>
+<text x="68" y="152.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">2.14</text>
+<line x1="76" y1="58.00" x2="952.00" y2="58.00" stroke="#e8e8e8"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">2.86</text>
+<line x1="76.00" y1="58" x2="76.00" y2="418.00" stroke="#f0f0f0"/>
+<line x1="76.00" y1="418.00" x2="76.00" y2="423.00" stroke="#222222"/>
+<text x="76.00" y="436.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">1</text>
+<line x1="251.20" y1="58" x2="251.20" y2="418.00" stroke="#f0f0f0"/>
+<line x1="251.20" y1="418.00" x2="251.20" y2="423.00" stroke="#222222"/>
+<text x="251.20" y="436.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">10.8</text>
+<line x1="426.40" y1="58" x2="426.40" y2="418.00" stroke="#f0f0f0"/>
+<line x1="426.40" y1="418.00" x2="426.40" y2="423.00" stroke="#222222"/>
+<text x="426.40" y="436.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">20.6</text>
+<line x1="601.60" y1="58" x2="601.60" y2="418.00" stroke="#f0f0f0"/>
+<line x1="601.60" y1="418.00" x2="601.60" y2="423.00" stroke="#222222"/>
+<text x="601.60" y="436.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">30.4</text>
+<line x1="776.80" y1="58" x2="776.80" y2="418.00" stroke="#f0f0f0"/>
+<line x1="776.80" y1="418.00" x2="776.80" y2="423.00" stroke="#222222"/>
+<text x="776.80" y="436.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">40.2</text>
+<line x1="952.00" y1="58" x2="952.00" y2="418.00" stroke="#f0f0f0"/>
+<line x1="952.00" y1="418.00" x2="952.00" y2="423.00" stroke="#222222"/>
+<text x="952.00" y="436.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">50</text>
+<polyline points="76.00,84.67 93.88,166.27 111.76,244.84 129.63,324.17 147.51,400.43 165.39,405.66 183.27,407.73 201.14,408.18 219.02,408.33 236.90,408.17 254.78,408.37 272.65,408.14 290.53,408.43 308.41,408.38 326.29,409.08 344.16,409.41 362.04,409.03 379.92,408.58 397.80,408.48 415.67,408.79 433.55,408.63 451.43,408.57 469.31,409.17 487.18,408.99 505.06,409.15 522.94,408.96 540.82,409.13 558.69,408.85 576.57,408.79 594.45,408.96 612.33,408.71 630.20,409.04 648.08,408.99 665.96,408.93 683.84,408.55 701.71,409.26 719.59,409.11 737.47,410.00 755.35,409.95 773.22,409.91 791.10,409.84 808.98,409.32 826.86,409.15 844.73,408.86 862.61,408.69 880.49,408.38 898.37,408.89 916.24,408.92 934.12,408.73 952.00,408.36" fill="none" stroke="#2a6fbb" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="76.00,117.37 93.88,192.89 111.76,269.39 129.63,343.12 147.51,405.27 165.39,407.48 183.27,408.34 201.14,408.61 219.02,408.64 236.90,408.26 254.78,408.42 272.65,407.89 290.53,408.85 308.41,408.52 326.29,409.24 344.16,408.76 362.04,408.59 379.92,408.55 397.80,408.57 415.67,408.32 433.55,408.65 451.43,408.69 469.31,408.55 487.18,408.95 505.06,409.17 522.94,409.38 540.82,409.50 558.69,408.63 576.57,408.71 594.45,408.91 612.33,408.53 630.20,408.37 648.08,408.60 665.96,408.88 683.84,408.84 701.71,408.87 719.59,409.10 737.47,409.42 755.35,409.64 773.22,409.16 791.10,409.61 808.98,409.41 826.86,408.91 844.73,408.10 862.61,408.25 880.49,408.38 898.37,408.20 916.24,408.65 934.12,408.69 952.00,408.36" fill="none" stroke="#6b8e23" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="76.00,205.64 93.88,273.02 111.76,336.96 129.63,381.78 147.51,408.92 165.39,408.24 183.27,409.45 201.14,409.28 219.02,408.71 236.90,408.57 254.78,409.25 272.65,409.37 290.53,409.20 308.41,409.55 326.29,409.33 344.16,408.92 362.04,409.41 379.92,409.90 397.80,409.48 415.67,408.44 433.55,408.70 451.43,408.11 469.31,409.52 487.18,409.14 505.06,409.20 522.94,409.97 540.82,408.92 558.69,408.41 576.57,409.41 594.45,409.04 612.33,409.29 630.20,409.98 648.08,409.58 665.96,409.57 683.84,409.82 701.71,409.90 719.59,409.67 737.47,409.29 755.35,408.93 773.22,408.74 791.10,410.30 808.98,409.04 826.86,409.74 844.73,408.60 862.61,408.97 880.49,408.92 898.37,409.39 916.24,409.72 934.12,409.50 952.00,409.76" fill="none" stroke="#b45f06" stroke-width="2" stroke-linejoin="round"/>
+<line x1="147.51" y1="58" x2="147.51" y2="418.00" stroke="#b45f06" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="151.51" y="73.00" font-family="Arial, sans-serif" font-size="10" fill="#b45f06">tau=5 (ruido moderado)</text>
+<line x1="219.02" y1="58" x2="219.02" y2="418.00" stroke="#4d6f45" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="223.02" y="89.00" font-family="Arial, sans-serif" font-size="10" fill="#4d6f45">tau=9 (limpia y ruido pequeno)</text>
+<circle cx="219.02" cy="408.33" r="4" fill="#2a6fbb" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="219.02" cy="408.64" r="4" fill="#6b8e23" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="147.51" cy="408.92" r="4" fill="#b45f06" stroke="#ffffff" stroke-width="1.2"/>
+<g><circle cx="755.00" cy="28.00" r="4" fill="#2a6fbb"/><text x="765.00" y="32.00" font-family="Arial, sans-serif" font-size="12">serie limpia</text></g>
+<g><circle cx="755.00" cy="46.00" r="4" fill="#6b8e23"/><text x="765.00" y="50.00" font-family="Arial, sans-serif" font-size="12">ruido pequeno</text></g>
+<g><circle cx="755.00" cy="64.00" r="4" fill="#b45f06"/><text x="765.00" y="68.00" font-family="Arial, sans-serif" font-size="12">ruido moderado</text></g>
+<text x="514.00" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">tau</text>
+<text transform="translate(18,238.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">AMI</text>
+<rect x="555.0" y="118.0" width="380.0" height="205.0" fill="#ffffff" fill-opacity="0.96" stroke="#555555" stroke-width="1"/>
+<text x="563.00" y="134.00" font-family="Arial, sans-serif" font-size="11" font-weight="700">Detalle de los primeros minimos locales</text>
+<line x1="555.0" y1="323.00" x2="935.00" y2="323.00" stroke="#eeeeee" stroke-width="1"/>
+<text x="550.00" y="326.00" text-anchor="end" font-family="Arial, sans-serif" font-size="8">0.061</text>
+<line x1="555.0" y1="254.67" x2="935.00" y2="254.67" stroke="#eeeeee" stroke-width="1"/>
+<text x="550.00" y="257.67" text-anchor="end" font-family="Arial, sans-serif" font-size="8">0.089</text>
+<line x1="555.0" y1="186.33" x2="935.00" y2="186.33" stroke="#eeeeee" stroke-width="1"/>
+<text x="550.00" y="189.33" text-anchor="end" font-family="Arial, sans-serif" font-size="8">0.118</text>
+<line x1="555.0" y1="118.00" x2="935.00" y2="118.00" stroke="#eeeeee" stroke-width="1"/>
+<text x="550.00" y="121.00" text-anchor="end" font-family="Arial, sans-serif" font-size="8">0.147</text>
+<line x1="555.00" y1="142.00" x2="555.00" y2="323.00" stroke="#b45f06" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="772.14" y1="142.00" x2="772.14" y2="323.00" stroke="#4d6f45" stroke-width="1" stroke-dasharray="4,3"/>
+<polyline points="555.00,135.08 609.29,234.21 663.57,273.38 717.86,281.83 772.14,284.73 826.43,281.58 880.71,285.39 935.00,281.15" fill="none" stroke="#2a6fbb" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="555.00" cy="135.08" r="2.0" fill="#2a6fbb"/>
+<circle cx="609.29" cy="234.21" r="2.0" fill="#2a6fbb"/>
+<circle cx="663.57" cy="273.38" r="2.0" fill="#2a6fbb"/>
+<circle cx="717.86" cy="281.83" r="2.0" fill="#2a6fbb"/>
+<circle cx="772.14" cy="284.73" r="3.8" fill="#2a6fbb"/>
+<circle cx="826.43" cy="281.58" r="2.0" fill="#2a6fbb"/>
+<circle cx="880.71" cy="285.39" r="2.0" fill="#2a6fbb"/>
+<circle cx="935.00" cy="281.15" r="2.0" fill="#2a6fbb"/>
+<polyline points="555.00,226.74 609.29,268.56 663.57,284.80 717.86,289.99 772.14,290.57 826.43,283.41 880.71,286.33 935.00,276.42" fill="none" stroke="#6b8e23" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="555.00" cy="226.74" r="2.0" fill="#6b8e23"/>
+<circle cx="609.29" cy="268.56" r="2.0" fill="#6b8e23"/>
+<circle cx="663.57" cy="284.80" r="2.0" fill="#6b8e23"/>
+<circle cx="717.86" cy="289.99" r="2.0" fill="#6b8e23"/>
+<circle cx="772.14" cy="290.57" r="3.8" fill="#6b8e23"/>
+<circle cx="826.43" cy="283.41" r="2.0" fill="#6b8e23"/>
+<circle cx="880.71" cy="286.33" r="2.0" fill="#6b8e23"/>
+<circle cx="935.00" cy="276.42" r="2.0" fill="#6b8e23"/>
+<polyline points="555.00,295.80 609.29,282.97 663.57,305.92 717.86,302.61 772.14,291.90 826.43,289.29 880.71,302.19 935.00,304.42" fill="none" stroke="#b45f06" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="555.00" cy="295.80" r="3.8" fill="#b45f06"/>
+<circle cx="609.29" cy="282.97" r="2.0" fill="#b45f06"/>
+<circle cx="663.57" cy="305.92" r="2.0" fill="#b45f06"/>
+<circle cx="717.86" cy="302.61" r="2.0" fill="#b45f06"/>
+<circle cx="772.14" cy="291.90" r="2.0" fill="#b45f06"/>
+<circle cx="826.43" cy="289.29" r="2.0" fill="#b45f06"/>
+<circle cx="880.71" cy="302.19" r="2.0" fill="#b45f06"/>
+<circle cx="935.00" cy="304.42" r="2.0" fill="#b45f06"/>
+<text x="555.00" y="336.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">5</text>
+<text x="772.14" y="336.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">9</text>
+<text x="935.00" y="336.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">12</text>
+<text x="745.00" y="350.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">Se selecciona el primer minimo local, no el minimo global</text>
+</svg>

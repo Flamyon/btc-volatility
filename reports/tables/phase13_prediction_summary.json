@@ -1,0 +1,174 @@
+{
+  "system": "logistic map",
+  "equation": "x[t+1] = r*x[t]*(1-x[t])",
+  "r": 4.0,
+  "x0": 0.123456789,
+  "n_total": 12000,
+  "burn_in": 1000,
+  "seed": 20260603,
+  "output_length_after_burn_in": 11000,
+  "noise": [
+    {
+      "series_name": "logistic_clean",
+      "noise_level": "none",
+      "noise_sigma": 0.0,
+      "clipped_count": 0
+    },
+    {
+      "series_name": "logistic_noise_small",
+      "noise_level": "small",
+      "noise_sigma": 0.00355378073743406,
+      "clipped_count": 371
+    },
+    {
+      "series_name": "logistic_noise_moderate",
+      "noise_level": "moderate",
+      "noise_sigma": 0.0177689036871703,
+      "clipped_count": 829
+    }
+  ],
+  "selected_embedding": [
+    {
+      "series_name": "logistic_clean",
+      "tau_selected": 9,
+      "m_fnn": 5,
+      "m_cao": 10,
+      "m_selected": 5,
+      "tau_selection_note": "primer minimo local de AMI",
+      "selection_note": "FNN y Cao discrepan; se usa FNN=5 de forma operativa"
+    },
+    {
+      "series_name": "logistic_noise_small",
+      "tau_selected": 9,
+      "m_fnn": 6,
+      "m_cao": 10,
+      "m_selected": 6,
+      "tau_selection_note": "primer minimo local de AMI",
+      "selection_note": "FNN y Cao discrepan; se usa FNN=6 de forma operativa"
+    },
+    {
+      "series_name": "logistic_noise_moderate",
+      "tau_selected": 5,
+      "m_fnn": 5,
+      "m_cao": 10,
+      "m_selected": 5,
+      "tau_selection_note": "primer minimo local de AMI",
+      "selection_note": "FNN y Cao discrepan; se usa FNN=5 de forma operativa"
+    }
+  ],
+  "lyapunov": [
+    {
+      "series_name": "logistic_clean",
+      "tau": 9,
+      "m": 5,
+      "slope_per_step": 0.18518596807753168,
+      "fit_start": 1,
+      "fit_end": 6,
+      "r2_fit": 0.6862032343055415,
+      "theoretical_ln2": 0.6931471805599453,
+      "n_fit_points": 6,
+      "n_neighbor_pairs": 1780,
+      "block_start_embedding_index": 4582
+    },
+    {
+      "series_name": "logistic_noise_small",
+      "tau": 9,
+      "m": 6,
+      "slope_per_step": 0.13145235482878764,
+      "fit_start": 1,
+      "fit_end": 6,
+      "r2_fit": 0.6331334756171654,
+      "theoretical_ln2": 0.6931471805599453,
+      "n_fit_points": 6,
+      "n_neighbor_pairs": 1780,
+      "block_start_embedding_index": 4577
+    },
+    {
+      "series_name": "logistic_noise_moderate",
+      "tau": 5,
+      "m": 5,
+      "slope_per_step": -0.008379147403390526,
+      "fit_start": 1,
+      "fit_end": 6,
+      "r2_fit": 0.0013557095638910832,
+      "theoretical_ln2": 0.6931471805599453,
+      "n_fit_points": 6,
+      "n_neighbor_pairs": 1780,
+      "block_start_embedding_index": 4590
+    }
+  ],
+  "prediction": [
+    {
+      "series_name": "logistic_clean",
+      "tau": 9,
+      "m": 5,
+      "theiler_window": 45,
+      "selected_k": 5,
+      "ar_order": 0,
+      "max_ar_order_tested": 100,
+      "ar_order_candidates": "0..100",
+      "test_rmse_knn": 0.0981668957190994,
+      "test_rmse_persistence": 0.49939885078418617,
+      "test_rmse_ar": 0.356522571238361,
+      "delta_rmse_knn_vs_persistence": -0.4012319550650868,
+      "delta_rmse_knn_vs_ar": -0.25835567551926164
+    },
+    {
+      "series_name": "logistic_noise_small",
+      "tau": 9,
+      "m": 6,
+      "theiler_window": 54,
+      "selected_k": 5,
+      "ar_order": 0,
+      "max_ar_order_tested": 100,
+      "ar_order_candidates": "0..100",
+      "test_rmse_knn": 0.13010073689278123,
+      "test_rmse_persistence": 0.4993364171303454,
+      "test_rmse_ar": 0.35639476704599016,
+      "delta_rmse_knn_vs_persistence": -0.36923568023756415,
+      "delta_rmse_knn_vs_ar": -0.22629403015320892
+    },
+    {
+      "series_name": "logistic_noise_moderate",
+      "tau": 5,
+      "m": 5,
+      "theiler_window": 25,
+      "selected_k": 5,
+      "ar_order": 0,
+      "max_ar_order_tested": 100,
+      "ar_order_candidates": "0..100",
+      "test_rmse_knn": 0.10745549393590369,
+      "test_rmse_persistence": 0.49845454310802567,
+      "test_rmse_ar": 0.3557510184026521,
+      "delta_rmse_knn_vs_persistence": -0.39099904917212197,
+      "delta_rmse_knn_vs_ar": -0.2482955244667484
+    }
+  ],
+  "ar_order_selection": [
+    {
+      "series_name": "logistic_clean",
+      "p": 0,
+      "nobs_train": 6600,
+      "innovation_variance": 0.9998484848484862,
+      "aic": 0.9999242347800634,
+      "bic": 7.794749162794581
+    },
+    {
+      "series_name": "logistic_noise_small",
+      "p": 0,
+      "nobs_train": 6600,
+      "innovation_variance": 0.9998484848484932,
+      "aic": 0.9999242348262336,
+      "bic": 7.79474916284075
+    },
+    {
+      "series_name": "logistic_noise_moderate",
+      "p": 0,
+      "nobs_train": 6600,
+      "innovation_variance": 0.9998484848484862,
+      "aic": 0.9999242347800634,
+      "bic": 7.794749162794581
+    }
+  ],
+  "theoretical_lyapunov_ln2": 0.6931471805599453
+}

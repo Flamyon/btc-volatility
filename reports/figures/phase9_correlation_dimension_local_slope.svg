@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430">
+<rect x="0" y="0" width="1040" height="430" fill="#ffffff"/>
+<text x="520.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Pendiente local D2(r)</text>
+<rect x="78" y="58" width="924.00" height="314.00" fill="none" stroke="#222222" stroke-width="1"/>
+<line x1="78" y1="372.00" x2="1002.00" y2="372.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="376.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.32</text>
+<line x1="78" y1="293.50" x2="1002.00" y2="293.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="297.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">2.21</text>
+<line x1="78" y1="215.00" x2="1002.00" y2="215.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="219.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">3.09</text>
+<line x1="78" y1="136.50" x2="1002.00" y2="136.50" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="140.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">3.98</text>
+<line x1="78" y1="58.00" x2="1002.00" y2="58.00" stroke="#e8e8e8" stroke-width="1"/>
+<text x="70" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">4.87</text>
+<polyline points="112.22,94.05 141.72,95.76 171.23,101.27 200.73,108.08 230.23,111.73 259.73,114.99 289.23,121.99 318.74,126.05 348.24,129.72 377.74,137.90 407.24,146.85 436.74,153.00 466.25,160.67 495.75,169.38 525.25,177.12 554.75,186.25 584.25,195.65 613.75,205.61 643.26,214.74 672.76,224.65 702.26,236.36 731.76,247.58 761.26,259.01 790.77,271.81 820.27,284.14 849.77,296.30 879.27,309.52 908.77,323.37 938.28,337.08 967.78,350.34" fill="none" stroke="#5f6b7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="112.22" cy="94.05" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="141.72" cy="95.76" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="171.23" cy="101.27" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="200.73" cy="108.08" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="230.23" cy="111.73" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="259.73" cy="114.99" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="289.23" cy="121.99" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="318.74" cy="126.05" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="348.24" cy="129.72" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="377.74" cy="137.90" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="407.24" cy="146.85" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="436.74" cy="153.00" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="466.25" cy="160.67" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="495.75" cy="169.38" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="525.25" cy="177.12" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="554.75" cy="186.25" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="584.25" cy="195.65" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="613.75" cy="205.61" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="643.26" cy="214.74" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="672.76" cy="224.65" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="702.26" cy="236.36" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="731.76" cy="247.58" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="761.26" cy="259.01" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="790.77" cy="271.81" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="820.27" cy="284.14" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="849.77" cy="296.30" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="879.27" cy="309.52" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="908.77" cy="323.37" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="938.28" cy="337.08" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<circle cx="967.78" cy="350.34" r="2.2" fill="#5f6b7a" opacity="0.85"/>
+<polyline points="112.22,79.66 141.72,89.16 171.23,83.19 200.73,88.26 230.23,98.25 259.73,99.46 289.23,102.28 318.74,107.44 348.24,114.42 377.74,119.49 407.24,122.87 436.74,128.54 466.25,133.56 495.75,141.07 525.25,148.30 554.75,156.95 584.25,166.48 613.75,174.06 643.26,183.75 672.76,195.14 702.26,205.62 731.76,216.96 761.26,230.02 790.77,243.77 820.27,257.16 849.77,270.39 879.27,285.07 908.77,299.99 938.28,315.50 967.78,331.10" fill="none" stroke="#b45f06" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="112.22" cy="79.66" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="141.72" cy="89.16" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="171.23" cy="83.19" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="200.73" cy="88.26" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="230.23" cy="98.25" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="259.73" cy="99.46" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="289.23" cy="102.28" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="318.74" cy="107.44" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="348.24" cy="114.42" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="377.74" cy="119.49" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="407.24" cy="122.87" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="436.74" cy="128.54" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="466.25" cy="133.56" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="495.75" cy="141.07" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="525.25" cy="148.30" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="554.75" cy="156.95" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="584.25" cy="166.48" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="613.75" cy="174.06" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="643.26" cy="183.75" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="672.76" cy="195.14" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="702.26" cy="205.62" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="731.76" cy="216.96" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="761.26" cy="230.02" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="790.77" cy="243.77" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="820.27" cy="257.16" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="849.77" cy="270.39" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="879.27" cy="285.07" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="908.77" cy="299.99" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="938.28" cy="315.50" r="2.2" fill="#b45f06" opacity="0.85"/>
+<circle cx="967.78" cy="331.10" r="2.2" fill="#b45f06" opacity="0.85"/>
+<text x="78.00" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">-0.0629</text>
+<text x="262.80" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.198</text>
+<text x="447.60" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.458</text>
+<text x="632.40" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.719</text>
+<text x="817.20" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.98</text>
+<text x="1002.00" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">1.24</text>
+<text x="540.00" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">log r</text>
+<text transform="translate(18,215.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">pendiente local</text>
+<g><circle cx="820.00" cy="28.00" r="4" fill="#5f6b7a"/><text x="830.00" y="32.00" font-family="Arial, sans-serif" font-size="12">original</text></g>
+<g><circle cx="820.00" cy="46.00" r="4" fill="#b45f06"/><text x="830.00" y="50.00" font-family="Arial, sans-serif" font-size="12">barajada</text></g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+<text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Prediccion local: RMSE validation por k</text>
+<rect x="76" y="58" width="876.00" height="340.00" fill="none" stroke="#222222"/>
+<line x1="76" y1="398.00" x2="952.00" y2="398.00" stroke="#e8e8e8"/>
+<text x="68" y="402.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.1</text>
+<line x1="76" y1="313.00" x2="952.00" y2="313.00" stroke="#e8e8e8"/>
+<text x="68" y="317.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.126</text>
+<line x1="76" y1="228.00" x2="952.00" y2="228.00" stroke="#e8e8e8"/>
+<text x="68" y="232.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.152</text>
+<line x1="76" y1="143.00" x2="952.00" y2="143.00" stroke="#e8e8e8"/>
+<text x="68" y="147.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.178</text>
+<line x1="76" y1="58.00" x2="952.00" y2="58.00" stroke="#e8e8e8"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.204</text>
+<polyline points="76.00,281.26 93.88,344.17 111.76,369.58 147.51,374.55 236.90,355.77 415.67,315.76 952.00,210.98" fill="none" stroke="#2a6fbb" stroke-width="2"/>
+<polyline points="76.00,124.50 93.88,210.50 111.76,231.56 147.51,252.69 236.90,233.61 415.67,188.64 952.00,81.45" fill="none" stroke="#6b8e23" stroke-width="2"/>
+<polyline points="76.00,227.08 93.88,300.16 111.76,330.09 147.51,344.89 236.90,335.04 415.67,296.58 952.00,198.73" fill="none" stroke="#b45f06" stroke-width="2"/>
+<g><circle cx="730.00" cy="28.00" r="4" fill="#2a6fbb"/><text x="740.00" y="32.00" font-family="Arial, sans-serif" font-size="12">logistic_clean</text></g>
+<g><circle cx="730.00" cy="46.00" r="4" fill="#6b8e23"/><text x="740.00" y="50.00" font-family="Arial, sans-serif" font-size="12">logistic_noise_small</text></g>
+<g><circle cx="730.00" cy="64.00" r="4" fill="#b45f06"/><text x="740.00" y="68.00" font-family="Arial, sans-serif" font-size="12">logistic_noise_moderate</text></g>
+<line x1="76.00" y1="58" x2="76.00" y2="398.00" stroke="#f0f0f0"/>
+<line x1="76.00" y1="398.00" x2="76.00" y2="403.00" stroke="#222222"/>
+<text x="76.00" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">1</text>
+<line x1="251.20" y1="58" x2="251.20" y2="398.00" stroke="#f0f0f0"/>
+<line x1="251.20" y1="398.00" x2="251.20" y2="403.00" stroke="#222222"/>
+<text x="251.20" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">10.8</text>
+<line x1="426.40" y1="58" x2="426.40" y2="398.00" stroke="#f0f0f0"/>
+<line x1="426.40" y1="398.00" x2="426.40" y2="403.00" stroke="#222222"/>
+<text x="426.40" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">20.6</text>
+<line x1="601.60" y1="58" x2="601.60" y2="398.00" stroke="#f0f0f0"/>
+<line x1="601.60" y1="398.00" x2="601.60" y2="403.00" stroke="#222222"/>
+<text x="601.60" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">30.4</text>
+<line x1="776.80" y1="58" x2="776.80" y2="398.00" stroke="#f0f0f0"/>
+<line x1="776.80" y1="398.00" x2="776.80" y2="403.00" stroke="#222222"/>
+<text x="776.80" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">40.2</text>
+<line x1="952.00" y1="58" x2="952.00" y2="398.00" stroke="#f0f0f0"/>
+<line x1="952.00" y1="398.00" x2="952.00" y2="403.00" stroke="#222222"/>
+<text x="952.00" y="416.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">50</text>
+<text x="514.00" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">k</text>
+<text transform="translate(18,228.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">RMSE</text>
+</svg>

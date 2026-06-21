@@ -1,0 +1,18 @@
+check,value,status,detail
+Columnas esperadas,True,OK,"open_time, open, high, low, close, volume, trades, taker_buy_quote"
+Numero de filas,245088,OK,esperadas=245088
+Fecha minima,2024-01-01 00:00:00,OK,esperada=2024-01-01 00:00:00
+Fecha maxima,2026-04-30 23:55:00,OK,esperada=2026-04-30 23:55:00
+Orden temporal en el CSV,True,OK,open_time estrictamente creciente
+Frecuencia real modal,0:05:00,OK,observaciones=245087
+Diferencias distintas de 5m,0,OK,
+Duplicados en open_time,0,OK,[]
+Huecos temporales > 5m,0,OK,velas faltantes=0
+Valores nulos/blancos,0,OK,{}
+Errores de conversion numerica/fecha,0,OK,{}
+Precios <= 0,0,OK,open/high/low/close
+Volumen <= 0,0,OK,"ceros=0, negativos=0"
+Trades <= 0,0,OK,"ceros=0, negativos=0"
+Taker buy quote <= 0,0,OK,"ceros=0, negativos=0"
+Consistencia OHLC,0,OK,{}
+Velas esperadas segun rango observado,245088,OK,rango observado inclusivo
