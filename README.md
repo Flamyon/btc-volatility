@@ -18,7 +18,6 @@ btc-volatility/
 ├── src/
 ├── btc_5m_clean.csv
 ├── README.md
-├── REPRODUCIBILITY.md
 ├── DATA_MANIFEST.md
 └── requirements.txt
 ```
