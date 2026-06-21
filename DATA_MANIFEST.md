@@ -2,7 +2,7 @@
 
 Manifiesto de datos utilizado en el repositorio técnico `btc-volatility`.
 
-Este documento identifica la fuente de datos, el periodo temporal utilizado, los ficheros brutos descargados, los datasets derivados y los elementos mínimos necesarios para comprobar la trazabilidad del conjunto de datos empleado en la memoria del TFG.
+Este documento identifica la fuente de datos, el periodo temporal utilizado, los ficheros brutos descargados y los datasets derivados.
 
 ## Fuente oficial
 
@@ -172,62 +172,6 @@ valores nulos: 0
 precios positivos: OK
 ```
 
-## Dataset de variables
-
-Fichero de variables construido en Fase 1:
-
-```text
-data/processed/btc_5m_features.csv
-```
-
-Número de observaciones:
-
-```text
-244752
-```
-
-Motivo de la reducción respecto al dataset limpio:
-
-```text
-Eliminación de las primeras 288 filas necesarias para construir ventanas históricas.
-Eliminación de las últimas 48 filas sin objetivo futuro disponible.
-```
-
-Variables principales construidas:
-
-```text
-log_close
-r
-r_squared
-abs_r
-high_low_log_range
-log_volume
-log_trades
-rv_past_12
-rv_past_48
-rv_past_288
-rv_future_12
-rv_future_48
-log_rv_past_12
-log_rv_past_48
-log_rv_past_288
-log_rv_future_12
-log_rv_future_48
-```
-
-Transformación logarítmica de volatilidad realizada:
-
-```text
-epsilon = 1e-12
-```
-
-Validación de fuga de información:
-
-```text
-Las variables pasadas se construyen exclusivamente con datos observados hasta el instante de predicción.
-Las variables futuras se usan únicamente como objetivo y no como entrada predictiva.
-```
-
 ## Scripts relacionados
 
 Construcción del dataset limpio:
@@ -246,33 +190,6 @@ Construcción de variables de volatilidad realizada:
 
 ```text
 src/build_phase1_features.py
-```
-
-## Artefactos derivados relevantes
-
-Modelo HAR-logRV exportado para el MVP:
-
-```text
-data/model_artifacts/har_logrv_model.json
-```
-
-Parámetros de embedding seleccionados:
-
-```text
-data/processed/phase8/selected_embedding_params.json
-```
-
-Resultados de predicción local:
-
-```text
-data/processed/phase11/
-data/processed/phase12/
-```
-
-Resultados de comparación final HAR-logRV:
-
-```text
-data/processed/phase14/
 ```
 
 ## Advertencia
