@@ -1,0 +1,3 @@
+# Ignorar carpetas de caché de Python de forma permanente
+**/__pycache__/
+*.pyc
