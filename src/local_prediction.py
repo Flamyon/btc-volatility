@@ -12,6 +12,9 @@ from typing import Any
 from state_space import build_embedding_rows, standardize_train
 
 
+TARGET_HORIZON_BARS = 12
+
+
 @dataclass(frozen=True)
 class SeriesData:
     times: list[str]
@@ -157,7 +160,13 @@ def read_prediction_series(path: Path) -> SeriesData:
     return SeriesData(times=times, x=x_values, y=y_values)
 
 
-def split_row_indices(times: list[str]) -> dict[str, list[int]]:
+def split_row_indices(
+    times: list[str],
+    purge_bars: int = TARGET_HORIZON_BARS,
+) -> dict[str, list[int]]:
+    """Particiones cronologicas con purga del horizonte en cada frontera."""
+    if purge_bars < 0:
+        raise ValueError("purge_bars no puede ser negativo")
     splits = {"train": [], "validation": [], "test": []}
     for index, time in enumerate(times):
         if time <= "2025-06-30 23:55:00":
@@ -166,6 +175,11 @@ def split_row_indices(times: list[str]) -> dict[str, list[int]]:
             splits["validation"].append(index)
         elif time >= "2026-01-01 00:00:00":
             splits["test"].append(index)
+    if purge_bars:
+        for name in ("train", "validation"):
+            if len(splits[name]) <= purge_bars:
+                raise ValueError(f"Split {name} demasiado corto para purgar {purge_bars} velas")
+            splits[name] = splits[name][:-purge_bars]
     return splits
 
 
@@ -398,7 +412,7 @@ def prepare_phase11_splits(
     dim: int,
 ) -> tuple[dict[str, EmbeddedSplit], list[float], float, float, dict[str, list[int]]]:
     row_splits = split_row_indices(data.times)
-    train_end = len(row_splits["train"])
+    train_end = sum(time <= "2025-06-30 23:55:00" for time in data.times)
     z_values, x_mean_train, x_std_train = standardize_train(data.x, train_end)
     splits = {
         name: build_embedded_split(

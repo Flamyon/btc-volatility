@@ -24,6 +24,7 @@ from local_prediction import (
     prepare_phase11_splits,
     read_prediction_series,
     sample_positions,
+    split_row_indices,
 )
 
 
@@ -51,7 +52,7 @@ def main() -> int:
     data = read_prediction_series(args.input)
     ar_coefficients = load_ar_coefficients(args.ar_coefficients)
     align = alignment_check(data.x, data.y, HORIZON)
-    raw_splits = split_raw_indices(data.times)
+    raw_splits = split_row_indices(data.times, HORIZON)
     first_validation_index = raw_splits["validation"][0]
     mean_y_train = mean_known_raw_targets(data.y, raw_splits["train"], first_validation_index, HORIZON)
 
@@ -88,6 +89,7 @@ def main() -> int:
         "random_seed": RANDOM_SEED,
         "alignment_check": align,
         "leakage_controls": {
+            "purge_bars_between_splits": HORIZON,
             "validation_neighbors": "train only",
             "test_neighbors": "train+validation only",
             "candidate_label_rule": "candidate_index + horizon <= query_index",
@@ -396,18 +398,6 @@ def config_comparison_row(
         "relative_improvement_vs_persistence_percent": 100.0 * (rmse_persistence - rmse_knn) / rmse_persistence,
         "relative_difference_vs_ar49_percent": 100.0 * (rmse_knn - rmse_ar49) / rmse_ar49,
     }
-
-
-def split_raw_indices(times: list[str]) -> dict[str, list[int]]:
-    rows = {"train": [], "validation": [], "test": []}
-    for index, time in enumerate(times):
-        if time <= "2025-06-30 23:55:00":
-            rows["train"].append(index)
-        elif time <= "2025-12-31 23:55:00":
-            rows["validation"].append(index)
-        elif time >= "2026-01-01 00:00:00":
-            rows["test"].append(index)
-    return rows
 
 
 def mean_known_raw_targets(

@@ -54,12 +54,17 @@ def bds_test_window(
 
     for epsilon in epsilons:
         row_bits, row_counts = _indicator_bitsets(values, epsilon)
-        c1 = sum(row_counts) / (len(values) * len(values))
+        c1_variance = _correlation_sum_embedding(row_bits, len(values), 1)
         variance_k = _bds_k(row_counts, len(values))
         for embedding_dim in embedding_dims:
-            cm = _correlation_sum_embedding(row_bits, len(values), embedding_dim)
-            variance = _bds_variance(c1, variance_k, embedding_dim)
             effective_n = len(values) - embedding_dim + 1
+            c1 = _correlation_sum_1d(
+                row_bits,
+                start=embedding_dim - 1,
+                length=effective_n,
+            )
+            cm = _correlation_sum_embedding(row_bits, len(values), embedding_dim)
+            variance = _bds_variance(c1_variance, variance_k, embedding_dim)
             if variance <= 0.0:
                 statistic = float("nan")
                 p_value = float("nan")
@@ -114,14 +119,30 @@ def _bds_k(row_counts: list[int], n: int) -> float:
 
 def _correlation_sum_embedding(row_bits: list[int], n: int, embedding_dim: int) -> float:
     effective_n = n - embedding_dim + 1
+    if effective_n < 2:
+        return 0.0
     mask = (1 << effective_n) - 1
     total = 0
     for start in range(effective_n):
         bits = mask
         for offset in range(embedding_dim):
             bits &= row_bits[start + offset] >> offset
+        bits &= ~(1 << start)
         total += bits.bit_count()
-    return total / (effective_n * effective_n)
+    return total / (effective_n * (effective_n - 1))
+
+
+def _correlation_sum_1d(row_bits: list[int], start: int, length: int) -> float:
+    """Suma de correlacion 1D sin diagonal sobre un tramo contiguo."""
+    if length < 2:
+        return 0.0
+    mask = (1 << length) - 1
+    total = 0
+    for source in range(start, start + length):
+        bits = (row_bits[source] >> start) & mask
+        bits &= ~(1 << (source - start))
+        total += bits.bit_count()
+    return total / (length * (length - 1))
 
 
 def _bds_variance(c1: float, k: float, embedding_dim: int) -> float:

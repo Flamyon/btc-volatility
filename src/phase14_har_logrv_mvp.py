@@ -32,6 +32,7 @@ from local_prediction import (
     prepare_phase11_splits,
     read_prediction_series,
     sample_positions,
+    split_row_indices,
 )
 
 
@@ -188,6 +189,7 @@ def main() -> int:
         },
         "alignment_check": align,
         "leakage_controls": {
+            "purge_bars_between_splits": HORIZON,
             "har_train_only": True,
             "features_are_past_only": HAR_FEATURES,
             "target": HAR_TARGET,
@@ -348,15 +350,7 @@ def read_har_rows(path: Path) -> list[dict[str, Any]]:
 
 
 def split_indices(rows: list[dict[str, Any]]) -> dict[str, list[int]]:
-    splits = {"train": [], "validation": [], "test": []}
-    for index, row in enumerate(rows):
-        time = str(row["open_time"])
-        if time <= "2025-06-30 23:55:00":
-            splits["train"].append(index)
-        elif time <= "2025-12-31 23:55:00":
-            splits["validation"].append(index)
-        elif time >= "2026-01-01 00:00:00":
-            splits["test"].append(index)
+    splits = split_row_indices([str(row["open_time"]) for row in rows], HORIZON)
     for name, indices in splits.items():
         if not indices:
             raise ValueError(f"Split vacio: {name}")
@@ -535,7 +529,7 @@ def run_mvp_1000_mode(rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]],
         if all(math.isfinite(float(row[column])) for column in [*HAR_FEATURES, HAR_TARGET])
     ]
     split = int(0.70 * len(effective_rows))
-    train_rows = effective_rows[:split]
+    train_rows = effective_rows[: split - HORIZON]
     test_rows = effective_rows[split:]
     model = fit_har_logrv_ols(
         [har_feature_row(row) for row in train_rows],

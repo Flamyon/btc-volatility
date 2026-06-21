@@ -1,5 +1,5 @@
 term,feature,coefficient
-intercept,intercept,-2.43864561274
-beta_1,log_rv_past_12,0.445206704593
-beta_2,log_rv_past_48,0.23343973489
-beta_3,log_rv_past_288,0.199923850581
+intercept,intercept,-2.43852877692
+beta_1,log_rv_past_12,0.445220369073
+beta_2,log_rv_past_48,0.233428562698
+beta_3,log_rv_past_288,0.199934391149

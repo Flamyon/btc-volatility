@@ -3,32 +3,32 @@
 <text x="490.0" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">Validation: RMSE por k</text>
 <rect x="76" y="58" width="874.00" height="318.00" fill="none" stroke="#222222" stroke-width="1"/>
 <line x1="76" y1="376.00" x2="950.00" y2="376.00" stroke="#e8e8e8" stroke-width="1"/>
-<text x="68" y="380.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.828</text>
+<text x="68" y="380.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.827</text>
 <line x1="76" y1="296.50" x2="950.00" y2="296.50" stroke="#e8e8e8" stroke-width="1"/>
-<text x="68" y="300.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.916</text>
+<text x="68" y="300.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.906</text>
 <line x1="76" y1="217.00" x2="950.00" y2="217.00" stroke="#e8e8e8" stroke-width="1"/>
-<text x="68" y="221.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1</text>
+<text x="68" y="221.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0.985</text>
 <line x1="76" y1="137.50" x2="950.00" y2="137.50" stroke="#e8e8e8" stroke-width="1"/>
-<text x="68" y="141.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.09</text>
+<text x="68" y="141.50" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.06</text>
 <line x1="76" y1="58.00" x2="950.00" y2="58.00" stroke="#e8e8e8" stroke-width="1"/>
-<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.18</text>
-<polyline points="76.00,79.93 80.41,119.72 89.24,172.36 111.31,223.59 155.45,256.51 287.88,290.37 508.59,299.93 950.00,300.59" fill="none" stroke="#b45f06" stroke-width="2"/>
+<text x="68" y="62.00" text-anchor="end" font-family="Arial, sans-serif" font-size="11">1.14</text>
+<polyline points="76.00,79.93 80.41,115.13 89.24,165.85 111.31,216.66 155.45,257.10 287.88,288.27 508.59,297.71 950.00,305.06" fill="none" stroke="#b45f06" stroke-width="2"/>
 <circle cx="76.00" cy="79.93" r="3.5" fill="#b45f06"/>
-<circle cx="80.41" cy="119.72" r="3.5" fill="#b45f06"/>
-<circle cx="89.24" cy="172.36" r="3.5" fill="#b45f06"/>
-<circle cx="111.31" cy="223.59" r="3.5" fill="#b45f06"/>
-<circle cx="155.45" cy="256.51" r="3.5" fill="#b45f06"/>
-<circle cx="287.88" cy="290.37" r="3.5" fill="#b45f06"/>
-<circle cx="508.59" cy="299.93" r="3.5" fill="#b45f06"/>
-<circle cx="950.00" cy="300.59" r="3.5" fill="#b45f06"/>
-<polyline points="76.00,153.09 80.41,197.04 89.24,241.70 111.31,290.45 155.45,320.57 287.88,343.26 508.59,351.27 950.00,354.07" fill="none" stroke="#2a6fbb" stroke-width="2"/>
-<circle cx="76.00" cy="153.09" r="3.5" fill="#2a6fbb"/>
-<circle cx="80.41" cy="197.04" r="3.5" fill="#2a6fbb"/>
-<circle cx="89.24" cy="241.70" r="3.5" fill="#2a6fbb"/>
-<circle cx="111.31" cy="290.45" r="3.5" fill="#2a6fbb"/>
-<circle cx="155.45" cy="320.57" r="3.5" fill="#2a6fbb"/>
-<circle cx="287.88" cy="343.26" r="3.5" fill="#2a6fbb"/>
-<circle cx="508.59" cy="351.27" r="3.5" fill="#2a6fbb"/>
+<circle cx="80.41" cy="115.13" r="3.5" fill="#b45f06"/>
+<circle cx="89.24" cy="165.85" r="3.5" fill="#b45f06"/>
+<circle cx="111.31" cy="216.66" r="3.5" fill="#b45f06"/>
+<circle cx="155.45" cy="257.10" r="3.5" fill="#b45f06"/>
+<circle cx="287.88" cy="288.27" r="3.5" fill="#b45f06"/>
+<circle cx="508.59" cy="297.71" r="3.5" fill="#b45f06"/>
+<circle cx="950.00" cy="305.06" r="3.5" fill="#b45f06"/>
+<polyline points="76.00,129.29 80.41,172.15 89.24,222.45 111.31,279.52 155.45,314.14 287.88,339.50 508.59,349.42 950.00,354.07" fill="none" stroke="#2a6fbb" stroke-width="2"/>
+<circle cx="76.00" cy="129.29" r="3.5" fill="#2a6fbb"/>
+<circle cx="80.41" cy="172.15" r="3.5" fill="#2a6fbb"/>
+<circle cx="89.24" cy="222.45" r="3.5" fill="#2a6fbb"/>
+<circle cx="111.31" cy="279.52" r="3.5" fill="#2a6fbb"/>
+<circle cx="155.45" cy="314.14" r="3.5" fill="#2a6fbb"/>
+<circle cx="287.88" cy="339.50" r="3.5" fill="#2a6fbb"/>
+<circle cx="508.59" cy="349.42" r="3.5" fill="#2a6fbb"/>
 <circle cx="950.00" cy="354.07" r="3.5" fill="#2a6fbb"/>
 <text x="76.00" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">2</text>
 <text x="80.41" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">3</text>

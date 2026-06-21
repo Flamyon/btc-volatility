@@ -408,6 +408,7 @@ def build_summary(
         "mean_y_train_known": mean_y_train,
         "alignment_check": align,
         "leakage_controls": {
+            "purge_bars_between_splits": HORIZON,
             "validation_neighbors": "train only",
             "test_neighbors": "train+validation only",
             "candidate_label_rule": "candidate_index + horizon <= query_index",

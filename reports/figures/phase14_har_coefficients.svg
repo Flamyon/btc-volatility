@@ -15,9 +15,9 @@
 <line x1="84" y1="330.77" x2="732.00" y2="330.77" stroke="#333333" stroke-width="1.2"/>
 <rect x="146.64" y="87.23" width="90.72" height="243.55" fill="#2a6fbb" opacity="0.78"/>
 <text x="192.00" y="406" text-anchor="end" transform="rotate(-26 192.00,406)" font-family="Arial, sans-serif" font-size="11">log_rv_past_12</text>
-<rect x="362.64" y="203.07" width="90.72" height="127.70" fill="#2a6fbb" opacity="0.78"/>
+<rect x="362.64" y="203.08" width="90.72" height="127.69" fill="#2a6fbb" opacity="0.78"/>
 <text x="408.00" y="406" text-anchor="end" transform="rotate(-26 408.00,406)" font-family="Arial, sans-serif" font-size="11">log_rv_past_48</text>
-<rect x="578.64" y="221.41" width="90.72" height="109.37" fill="#2a6fbb" opacity="0.78"/>
+<rect x="578.64" y="221.40" width="90.72" height="109.37" fill="#2a6fbb" opacity="0.78"/>
 <text x="624.00" y="406" text-anchor="end" transform="rotate(-26 624.00,406)" font-family="Arial, sans-serif" font-size="11">log_rv_past_288</text>
 <text x="408.00" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">feature</text>
 <text transform="translate(18,209.0) rotate(-90)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">coeficiente</text>
