@@ -68,7 +68,7 @@ Meses descargados:
 Fecha de descarga de los ficheros brutos:
 
 ```text
-<2026-05-08>
+2026-05-08
 ```
 
 ## Ficheros brutos
