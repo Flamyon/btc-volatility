@@ -51,7 +51,7 @@ La validación inicial confirmó:
 - ausencia de valores nulos;
 - precios positivos.
 
-Los detalles de descarga, ficheros usados y hashes se documentan en `DATA_MANIFEST.md`.
+Los detalles de descarga y ficheros utilizados se documentan en `DATA_MANIFEST.md`.
 
 ## Fases del estudio
 
@@ -130,7 +130,7 @@ Modelos finales considerados:
 
 - AR(49) como referencia lineal;
 - reconstrucción del espacio de estados con `tau=137` y `m=5`;
-- predicción local kNN con `k=50` a `k=200`;
+- predicción local kNN con exploración de `k` desde 50 a 200 (el MVP despliega `k=200`);
 - HAR-logRV como modelo práctico compacto para el MVP.
 
 El modelo HAR-logRV se exporta como artefacto en:
